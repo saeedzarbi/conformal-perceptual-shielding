@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+outputs/
+results/*
+!analysis/
+analysis/*.csv
+analysis/*.json
+data/raw_real5g/
+data/raw_videos/
+data/encoded_videos/
+data/standardized/train_traces*/
+data/standardized/test_traces/
+data/standardized/test_traces_v18/
+data/standardized/test_traces_real5g*/
+data/standardized/train_traces_real5g*/
+models/
+analysis/*/

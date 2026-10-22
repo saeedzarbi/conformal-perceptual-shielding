@@ -1,0 +1,2057 @@
+{
+  "dataset": "lumos",
+  "variant": "_1s",
+  "window_s": 200,
+  "calib_fraction": 0.4,
+  "split_seed": 2026,
+  "pools": {
+    "train": {
+      "dir": "data/standardized/train_traces_real5g_lumos_1s",
+      "sessions": [
+        {
+          "dataset": "lumos",
+          "session": "run065",
+          "mobility": "driving",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=65",
+          "seconds": 250,
+          "frac_5g": 0.808,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run118",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=118",
+          "seconds": 783,
+          "frac_5g": 0.644955300127714,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run083",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=83",
+          "seconds": 788,
+          "frac_5g": 0.8147208121827412,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run061",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=61",
+          "seconds": 780,
+          "frac_5g": 0.7576923076923077,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run017",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=17",
+          "seconds": 789,
+          "frac_5g": 0.8669201520912547,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run111",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=111",
+          "seconds": 800,
+          "frac_5g": 0.8525,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run088",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=88",
+          "seconds": 791,
+          "frac_5g": 0.8445006321112516,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run059",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=59",
+          "seconds": 799,
+          "frac_5g": 0.8836045056320401,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run089",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=89",
+          "seconds": 798,
+          "frac_5g": 0.7744360902255639,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run052",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=52",
+          "seconds": 787,
+          "frac_5g": 0.7318932655654383,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run103",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=103",
+          "seconds": 799,
+          "frac_5g": 0.83729662077597,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run048",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=48",
+          "seconds": 796,
+          "frac_5g": 0.8165829145728644,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run097",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=97",
+          "seconds": 799,
+          "frac_5g": 0.6896120150187734,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run058",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=58",
+          "seconds": 799,
+          "frac_5g": 0.7021276595744681,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run015",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=15",
+          "seconds": 787,
+          "frac_5g": 0.7153748411689962,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run039",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=39",
+          "seconds": 796,
+          "frac_5g": 0.7298994974874372,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run033",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=33",
+          "seconds": 756,
+          "frac_5g": 0.8902116402116402,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run081",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=81",
+          "seconds": 797,
+          "frac_5g": 0.8644918444165621,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run072",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=72",
+          "seconds": 800,
+          "frac_5g": 0.84,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run079",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=79",
+          "seconds": 800,
+          "frac_5g": 0.9125,
+          "n_windows": 4
+        },
+        {
+          "dataset": "lumos",
+          "session": "run009",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=9",
+          "seconds": 796,
+          "frac_5g": 0.8932160804020101,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run025",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=25",
+          "seconds": 741,
+          "frac_5g": 0.5371120107962213,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run027",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=27",
+          "seconds": 800,
+          "frac_5g": 0.665,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run053",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=53",
+          "seconds": 783,
+          "frac_5g": 0.876117496807152,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run019",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=19",
+          "seconds": 799,
+          "frac_5g": 0.7309136420525657,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run008",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=8",
+          "seconds": 749,
+          "frac_5g": 0.8651535380507344,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run080",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=80",
+          "seconds": 787,
+          "frac_5g": 0.8589580686149937,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run024",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=24",
+          "seconds": 768,
+          "frac_5g": 0.8333333333333334,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run117",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=117",
+          "seconds": 799,
+          "frac_5g": 0.6608260325406758,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run018",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=18",
+          "seconds": 786,
+          "frac_5g": 0.5928753180661578,
+          "n_windows": 1
+        }
+      ],
+      "n_sessions": 30,
+      "n_traces": 61,
+      "kbps_raw": {
+        "mean": 665224.5901639344,
+        "median": 681000.0,
+        "p10": 42000.0,
+        "p5": 7000.0,
+        "max": 1920000.0
+      },
+      "frac_samples_above_20mbps": 0.9243442622950819,
+      "frac_samples_below_6mbps": 0.04647540983606557,
+      "frac_samples_below_1_2mbps": 0.03622950819672131,
+      "sim_view_kbps": {
+        "mean": 18868.81830601093,
+        "median": 20000.0,
+        "frac_below_6000": 0.045765027322404374,
+        "frac_below_2850": 0.0389344262295082
+      },
+      "traces": [
+        {
+          "file": "lumos_driving_run065_t00000.json",
+          "session": "run065",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 0.815,
+          "mean_kbps": 423210.0
+        },
+        {
+          "file": "lumos_walking_run118_t00200.json",
+          "session": "run118",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.955,
+          "mean_kbps": 312115.0
+        },
+        {
+          "file": "lumos_walking_run083_t00000.json",
+          "session": "run083",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.93,
+          "mean_kbps": 607935.0
+        },
+        {
+          "file": "lumos_walking_run083_t00200.json",
+          "session": "run083",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.945,
+          "mean_kbps": 744600.0
+        },
+        {
+          "file": "lumos_walking_run061_t00200.json",
+          "session": "run061",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.9,
+          "mean_kbps": 886260.0
+        },
+        {
+          "file": "lumos_walking_run017_t00000.json",
+          "session": "run017",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.845,
+          "mean_kbps": 550650.0
+        },
+        {
+          "file": "lumos_walking_run017_t00200.json",
+          "session": "run017",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.945,
+          "mean_kbps": 872095.0
+        },
+        {
+          "file": "lumos_walking_run017_t00400.json",
+          "session": "run017",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.845,
+          "mean_kbps": 389425.0
+        },
+        {
+          "file": "lumos_walking_run111_t00200.json",
+          "session": "run111",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.855,
+          "mean_kbps": 827940.0
+        },
+        {
+          "file": "lumos_walking_run111_t00400.json",
+          "session": "run111",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.94,
+          "mean_kbps": 985820.0
+        },
+        {
+          "file": "lumos_walking_run111_t00600.json",
+          "session": "run111",
+          "mobility": "walking",
+          "start_s": 600,
+          "nr_frac": 0.835,
+          "mean_kbps": 445145.0
+        },
+        {
+          "file": "lumos_walking_run088_t00000.json",
+          "session": "run088",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.86,
+          "mean_kbps": 527415.0
+        },
+        {
+          "file": "lumos_walking_run088_t00200.json",
+          "session": "run088",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.86,
+          "mean_kbps": 752455.0
+        },
+        {
+          "file": "lumos_walking_run088_t00400.json",
+          "session": "run088",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.805,
+          "mean_kbps": 548970.0
+        },
+        {
+          "file": "lumos_walking_run059_t00000.json",
+          "session": "run059",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.86,
+          "mean_kbps": 584605.0
+        },
+        {
+          "file": "lumos_walking_run059_t00200.json",
+          "session": "run059",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.95,
+          "mean_kbps": 886280.0
+        },
+        {
+          "file": "lumos_walking_run059_t00400.json",
+          "session": "run059",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.835,
+          "mean_kbps": 447195.0
+        },
+        {
+          "file": "lumos_walking_run089_t00000.json",
+          "session": "run089",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.96,
+          "mean_kbps": 592870.0
+        },
+        {
+          "file": "lumos_walking_run089_t00200.json",
+          "session": "run089",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.83,
+          "mean_kbps": 498180.0
+        },
+        {
+          "file": "lumos_walking_run052_t00000.json",
+          "session": "run052",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.885,
+          "mean_kbps": 611780.0
+        },
+        {
+          "file": "lumos_walking_run052_t00200.json",
+          "session": "run052",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.97,
+          "mean_kbps": 824130.0
+        },
+        {
+          "file": "lumos_walking_run103_t00000.json",
+          "session": "run103",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.835,
+          "mean_kbps": 466170.0
+        },
+        {
+          "file": "lumos_walking_run103_t00200.json",
+          "session": "run103",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.925,
+          "mean_kbps": 800955.0
+        },
+        {
+          "file": "lumos_walking_run103_t00400.json",
+          "session": "run103",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.855,
+          "mean_kbps": 742620.0
+        },
+        {
+          "file": "lumos_walking_run048_t00400.json",
+          "session": "run048",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.915,
+          "mean_kbps": 932275.0
+        },
+        {
+          "file": "lumos_walking_run097_t00200.json",
+          "session": "run097",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.95,
+          "mean_kbps": 691750.0
+        },
+        {
+          "file": "lumos_walking_run058_t00200.json",
+          "session": "run058",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.935,
+          "mean_kbps": 627605.0
+        },
+        {
+          "file": "lumos_walking_run058_t00400.json",
+          "session": "run058",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.88,
+          "mean_kbps": 572000.0
+        },
+        {
+          "file": "lumos_walking_run015_t00400.json",
+          "session": "run015",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.955,
+          "mean_kbps": 1101450.0
+        },
+        {
+          "file": "lumos_walking_run039_t00000.json",
+          "session": "run039",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.835,
+          "mean_kbps": 672260.0
+        },
+        {
+          "file": "lumos_walking_run039_t00200.json",
+          "session": "run039",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.94,
+          "mean_kbps": 741835.0
+        },
+        {
+          "file": "lumos_walking_run033_t00000.json",
+          "session": "run033",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.89,
+          "mean_kbps": 520370.0
+        },
+        {
+          "file": "lumos_walking_run033_t00200.json",
+          "session": "run033",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.925,
+          "mean_kbps": 721505.0
+        },
+        {
+          "file": "lumos_walking_run033_t00400.json",
+          "session": "run033",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.9,
+          "mean_kbps": 837945.0
+        },
+        {
+          "file": "lumos_walking_run081_t00200.json",
+          "session": "run081",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.91,
+          "mean_kbps": 680555.0
+        },
+        {
+          "file": "lumos_walking_run081_t00400.json",
+          "session": "run081",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.95,
+          "mean_kbps": 676515.0
+        },
+        {
+          "file": "lumos_walking_run072_t00200.json",
+          "session": "run072",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.955,
+          "mean_kbps": 986760.0
+        },
+        {
+          "file": "lumos_walking_run072_t00400.json",
+          "session": "run072",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.855,
+          "mean_kbps": 781220.0
+        },
+        {
+          "file": "lumos_walking_run079_t00000.json",
+          "session": "run079",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.905,
+          "mean_kbps": 494435.0
+        },
+        {
+          "file": "lumos_walking_run079_t00200.json",
+          "session": "run079",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.97,
+          "mean_kbps": 827220.0
+        },
+        {
+          "file": "lumos_walking_run079_t00400.json",
+          "session": "run079",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.89,
+          "mean_kbps": 477455.0
+        },
+        {
+          "file": "lumos_walking_run079_t00600.json",
+          "session": "run079",
+          "mobility": "walking",
+          "start_s": 600,
+          "nr_frac": 0.885,
+          "mean_kbps": 410360.0
+        },
+        {
+          "file": "lumos_walking_run009_t00200.json",
+          "session": "run009",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.915,
+          "mean_kbps": 651330.0
+        },
+        {
+          "file": "lumos_walking_run009_t00400.json",
+          "session": "run009",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.97,
+          "mean_kbps": 597265.0
+        },
+        {
+          "file": "lumos_walking_run025_t00200.json",
+          "session": "run025",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.96,
+          "mean_kbps": 1049620.0
+        },
+        {
+          "file": "lumos_walking_run027_t00200.json",
+          "session": "run027",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.925,
+          "mean_kbps": 796120.0
+        },
+        {
+          "file": "lumos_walking_run053_t00000.json",
+          "session": "run053",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.92,
+          "mean_kbps": 582740.0
+        },
+        {
+          "file": "lumos_walking_run053_t00200.json",
+          "session": "run053",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.845,
+          "mean_kbps": 827125.0
+        },
+        {
+          "file": "lumos_walking_run053_t00400.json",
+          "session": "run053",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.83,
+          "mean_kbps": 702600.0
+        },
+        {
+          "file": "lumos_walking_run019_t00400.json",
+          "session": "run019",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.955,
+          "mean_kbps": 699905.0
+        },
+        {
+          "file": "lumos_walking_run008_t00000.json",
+          "session": "run008",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.855,
+          "mean_kbps": 546125.0
+        },
+        {
+          "file": "lumos_walking_run008_t00200.json",
+          "session": "run008",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.885,
+          "mean_kbps": 683015.0
+        },
+        {
+          "file": "lumos_walking_run008_t00400.json",
+          "session": "run008",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.93,
+          "mean_kbps": 740565.0
+        },
+        {
+          "file": "lumos_walking_run080_t00000.json",
+          "session": "run080",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.91,
+          "mean_kbps": 503455.0
+        },
+        {
+          "file": "lumos_walking_run080_t00200.json",
+          "session": "run080",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.89,
+          "mean_kbps": 508510.0
+        },
+        {
+          "file": "lumos_walking_run024_t00000.json",
+          "session": "run024",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.83,
+          "mean_kbps": 572400.0
+        },
+        {
+          "file": "lumos_walking_run024_t00200.json",
+          "session": "run024",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.86,
+          "mean_kbps": 780630.0
+        },
+        {
+          "file": "lumos_walking_run024_t00400.json",
+          "session": "run024",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.88,
+          "mean_kbps": 509505.0
+        },
+        {
+          "file": "lumos_walking_run117_t00000.json",
+          "session": "run117",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.86,
+          "mean_kbps": 255720.0
+        },
+        {
+          "file": "lumos_walking_run117_t00200.json",
+          "session": "run117",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.965,
+          "mean_kbps": 692050.0
+        },
+        {
+          "file": "lumos_walking_run018_t00200.json",
+          "session": "run018",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.965,
+          "mean_kbps": 797685.0
+        }
+      ]
+    },
+    "test": {
+      "dir": "data/standardized/test_traces_real5g_lumos_1s",
+      "sessions": [
+        {
+          "dataset": "lumos",
+          "session": "run063",
+          "mobility": "driving",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=63",
+          "seconds": 250,
+          "frac_5g": 0.816,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run041",
+          "mobility": "driving",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=41",
+          "seconds": 300,
+          "frac_5g": 0.83,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run062",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=62",
+          "seconds": 793,
+          "frac_5g": 0.7793190416141236,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run042",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=42",
+          "seconds": 790,
+          "frac_5g": 0.8860759493670886,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run007",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=7",
+          "seconds": 800,
+          "frac_5g": 0.8775,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run029",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=29",
+          "seconds": 794,
+          "frac_5g": 0.7141057934508817,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run016",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=16",
+          "seconds": 780,
+          "frac_5g": 0.6051282051282051,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run044",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=44",
+          "seconds": 799,
+          "frac_5g": 0.899874843554443,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run051",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=51",
+          "seconds": 775,
+          "frac_5g": 0.8825806451612903,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run099",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=99",
+          "seconds": 789,
+          "frac_5g": 0.7072243346007605,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run049",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=49",
+          "seconds": 785,
+          "frac_5g": 0.8356687898089172,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run050",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=50",
+          "seconds": 799,
+          "frac_5g": 0.867334167709637,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run104",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=104",
+          "seconds": 799,
+          "frac_5g": 0.655819774718398,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run031",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=31",
+          "seconds": 791,
+          "frac_5g": 0.8735777496839444,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run010",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=10",
+          "seconds": 792,
+          "frac_5g": 0.8573232323232324,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run057",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=57",
+          "seconds": 792,
+          "frac_5g": 0.8598484848484849,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run047",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=47",
+          "seconds": 799,
+          "frac_5g": 0.6770963704630788,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run034",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=34",
+          "seconds": 800,
+          "frac_5g": 0.8925,
+          "n_windows": 4
+        },
+        {
+          "dataset": "lumos",
+          "session": "run071",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=71",
+          "seconds": 790,
+          "frac_5g": 0.6974683544303798,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run032",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=32",
+          "seconds": 787,
+          "frac_5g": 0.8754764930114358,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run026",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=26",
+          "seconds": 800,
+          "frac_5g": 0.7475,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run038",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=38",
+          "seconds": 800,
+          "frac_5g": 0.87125,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run114",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=114",
+          "seconds": 799,
+          "frac_5g": 0.8210262828535669,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run030",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=30",
+          "seconds": 800,
+          "frac_5g": 0.87625,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run112",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=112",
+          "seconds": 799,
+          "frac_5g": 0.623279098873592,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run046",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=46",
+          "seconds": 799,
+          "frac_5g": 0.851063829787234,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run060",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=60",
+          "seconds": 799,
+          "frac_5g": 0.7634543178973717,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run098",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=98",
+          "seconds": 794,
+          "frac_5g": 0.8387909319899244,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run108",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=108",
+          "seconds": 799,
+          "frac_5g": 0.8685857321652065,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run113",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=113",
+          "seconds": 779,
+          "frac_5g": 0.7779204107830552,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run012",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=12",
+          "seconds": 800,
+          "frac_5g": 0.82375,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run084",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=84",
+          "seconds": 800,
+          "frac_5g": 0.75625,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run028",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=28",
+          "seconds": 800,
+          "frac_5g": 0.76875,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run013",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=13",
+          "seconds": 800,
+          "frac_5g": 0.835,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run011",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=11",
+          "seconds": 792,
+          "frac_5g": 0.8143939393939394,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run054",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=54",
+          "seconds": 794,
+          "frac_5g": 0.7128463476070529,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run004",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=4",
+          "seconds": 768,
+          "frac_5g": 0.7369791666666666,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run045",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=45",
+          "seconds": 799,
+          "frac_5g": 0.7133917396745932,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run096",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=96",
+          "seconds": 730,
+          "frac_5g": 0.9013698630136986,
+          "n_windows": 3
+        },
+        {
+          "dataset": "lumos",
+          "session": "run105",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=105",
+          "seconds": 799,
+          "frac_5g": 0.7284105131414268,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run087",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=87",
+          "seconds": 799,
+          "frac_5g": 0.7947434292866082,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run043",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=43",
+          "seconds": 795,
+          "frac_5g": 0.7044025157232704,
+          "n_windows": 1
+        },
+        {
+          "dataset": "lumos",
+          "session": "run020",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=20",
+          "seconds": 787,
+          "frac_5g": 0.6734434561626429,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run110",
+          "mobility": "walking",
+          "direction": "ACW",
+          "src": "Lumos5G-v1.0.csv:run_num=110",
+          "seconds": 799,
+          "frac_5g": 0.7784730913642053,
+          "n_windows": 2
+        },
+        {
+          "dataset": "lumos",
+          "session": "run109",
+          "mobility": "walking",
+          "direction": "CW",
+          "src": "Lumos5G-v1.0.csv:run_num=109",
+          "seconds": 799,
+          "frac_5g": 0.7496871088861077,
+          "n_windows": 1
+        }
+      ],
+      "n_sessions": 45,
+      "n_traces": 95,
+      "kbps_raw": {
+        "mean": 671739.5789473684,
+        "median": 697000.0,
+        "p10": 48000.0,
+        "p5": 11000.0,
+        "max": 1890000.0
+      },
+      "frac_samples_above_20mbps": 0.9337368421052632,
+      "frac_samples_below_6mbps": 0.03942105263157895,
+      "frac_samples_below_1_2mbps": 0.026105263157894736,
+      "sim_view_kbps": {
+        "mean": 19094.098684210527,
+        "median": 20000.0,
+        "frac_below_6000": 0.039473684210526314,
+        "frac_below_2850": 0.030043859649122807
+      },
+      "traces": [
+        {
+          "file": "lumos_driving_run063_t00000.json",
+          "session": "run063",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 0.805,
+          "mean_kbps": 348115.0
+        },
+        {
+          "file": "lumos_driving_run041_t00000.json",
+          "session": "run041",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 0.805,
+          "mean_kbps": 349185.0
+        },
+        {
+          "file": "lumos_walking_run062_t00400.json",
+          "session": "run062",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.95,
+          "mean_kbps": 790610.0
+        },
+        {
+          "file": "lumos_walking_run042_t00000.json",
+          "session": "run042",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.83,
+          "mean_kbps": 571700.0
+        },
+        {
+          "file": "lumos_walking_run042_t00200.json",
+          "session": "run042",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.935,
+          "mean_kbps": 899370.0
+        },
+        {
+          "file": "lumos_walking_run042_t00400.json",
+          "session": "run042",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.895,
+          "mean_kbps": 360545.0
+        },
+        {
+          "file": "lumos_walking_run007_t00000.json",
+          "session": "run007",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.945,
+          "mean_kbps": 931540.0
+        },
+        {
+          "file": "lumos_walking_run007_t00200.json",
+          "session": "run007",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.955,
+          "mean_kbps": 476200.0
+        },
+        {
+          "file": "lumos_walking_run007_t00600.json",
+          "session": "run007",
+          "mobility": "walking",
+          "start_s": 600,
+          "nr_frac": 0.82,
+          "mean_kbps": 386015.0
+        },
+        {
+          "file": "lumos_walking_run029_t00000.json",
+          "session": "run029",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.835,
+          "mean_kbps": 585245.0
+        },
+        {
+          "file": "lumos_walking_run029_t00200.json",
+          "session": "run029",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.96,
+          "mean_kbps": 822860.0
+        },
+        {
+          "file": "lumos_walking_run016_t00200.json",
+          "session": "run016",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.935,
+          "mean_kbps": 592620.0
+        },
+        {
+          "file": "lumos_walking_run044_t00000.json",
+          "session": "run044",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.835,
+          "mean_kbps": 667930.0
+        },
+        {
+          "file": "lumos_walking_run044_t00200.json",
+          "session": "run044",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.935,
+          "mean_kbps": 898715.0
+        },
+        {
+          "file": "lumos_walking_run044_t00400.json",
+          "session": "run044",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.91,
+          "mean_kbps": 436610.0
+        },
+        {
+          "file": "lumos_walking_run051_t00000.json",
+          "session": "run051",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.88,
+          "mean_kbps": 597580.0
+        },
+        {
+          "file": "lumos_walking_run051_t00200.json",
+          "session": "run051",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.91,
+          "mean_kbps": 1164675.0
+        },
+        {
+          "file": "lumos_walking_run051_t00400.json",
+          "session": "run051",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.91,
+          "mean_kbps": 842545.0
+        },
+        {
+          "file": "lumos_walking_run099_t00000.json",
+          "session": "run099",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.86,
+          "mean_kbps": 257195.0
+        },
+        {
+          "file": "lumos_walking_run099_t00200.json",
+          "session": "run099",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.96,
+          "mean_kbps": 649495.0
+        },
+        {
+          "file": "lumos_walking_run049_t00000.json",
+          "session": "run049",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.865,
+          "mean_kbps": 782575.0
+        },
+        {
+          "file": "lumos_walking_run049_t00200.json",
+          "session": "run049",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.94,
+          "mean_kbps": 537110.0
+        },
+        {
+          "file": "lumos_walking_run050_t00000.json",
+          "session": "run050",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.8,
+          "mean_kbps": 685495.0
+        },
+        {
+          "file": "lumos_walking_run050_t00200.json",
+          "session": "run050",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.93,
+          "mean_kbps": 914370.0
+        },
+        {
+          "file": "lumos_walking_run050_t00400.json",
+          "session": "run050",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.815,
+          "mean_kbps": 518805.0
+        },
+        {
+          "file": "lumos_walking_run104_t00200.json",
+          "session": "run104",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.89,
+          "mean_kbps": 545740.0
+        },
+        {
+          "file": "lumos_walking_run031_t00000.json",
+          "session": "run031",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.955,
+          "mean_kbps": 894760.0
+        },
+        {
+          "file": "lumos_walking_run031_t00200.json",
+          "session": "run031",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.955,
+          "mean_kbps": 860760.0
+        },
+        {
+          "file": "lumos_walking_run031_t00400.json",
+          "session": "run031",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.855,
+          "mean_kbps": 724530.0
+        },
+        {
+          "file": "lumos_walking_run010_t00000.json",
+          "session": "run010",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.96,
+          "mean_kbps": 689875.0
+        },
+        {
+          "file": "lumos_walking_run010_t00200.json",
+          "session": "run010",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.94,
+          "mean_kbps": 534020.0
+        },
+        {
+          "file": "lumos_walking_run010_t00400.json",
+          "session": "run010",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.81,
+          "mean_kbps": 457395.0
+        },
+        {
+          "file": "lumos_walking_run057_t00000.json",
+          "session": "run057",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.91,
+          "mean_kbps": 648210.0
+        },
+        {
+          "file": "lumos_walking_run057_t00200.json",
+          "session": "run057",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.925,
+          "mean_kbps": 1059805.0
+        },
+        {
+          "file": "lumos_walking_run057_t00400.json",
+          "session": "run057",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.94,
+          "mean_kbps": 740825.0
+        },
+        {
+          "file": "lumos_walking_run047_t00200.json",
+          "session": "run047",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.96,
+          "mean_kbps": 456585.0
+        },
+        {
+          "file": "lumos_walking_run034_t00000.json",
+          "session": "run034",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.81,
+          "mean_kbps": 407590.0
+        },
+        {
+          "file": "lumos_walking_run034_t00200.json",
+          "session": "run034",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.97,
+          "mean_kbps": 650700.0
+        },
+        {
+          "file": "lumos_walking_run034_t00400.json",
+          "session": "run034",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.94,
+          "mean_kbps": 707660.0
+        },
+        {
+          "file": "lumos_walking_run034_t00600.json",
+          "session": "run034",
+          "mobility": "walking",
+          "start_s": 600,
+          "nr_frac": 0.85,
+          "mean_kbps": 466385.0
+        },
+        {
+          "file": "lumos_walking_run071_t00400.json",
+          "session": "run071",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.91,
+          "mean_kbps": 577455.0
+        },
+        {
+          "file": "lumos_walking_run032_t00000.json",
+          "session": "run032",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.885,
+          "mean_kbps": 722095.0
+        },
+        {
+          "file": "lumos_walking_run032_t00200.json",
+          "session": "run032",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.965,
+          "mean_kbps": 899680.0
+        },
+        {
+          "file": "lumos_walking_run032_t00400.json",
+          "session": "run032",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.855,
+          "mean_kbps": 572995.0
+        },
+        {
+          "file": "lumos_walking_run026_t00000.json",
+          "session": "run026",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.915,
+          "mean_kbps": 751285.0
+        },
+        {
+          "file": "lumos_walking_run026_t00200.json",
+          "session": "run026",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.955,
+          "mean_kbps": 772525.0
+        },
+        {
+          "file": "lumos_walking_run038_t00000.json",
+          "session": "run038",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.895,
+          "mean_kbps": 491840.0
+        },
+        {
+          "file": "lumos_walking_run038_t00200.json",
+          "session": "run038",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.94,
+          "mean_kbps": 806580.0
+        },
+        {
+          "file": "lumos_walking_run038_t00400.json",
+          "session": "run038",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.885,
+          "mean_kbps": 957380.0
+        },
+        {
+          "file": "lumos_walking_run114_t00000.json",
+          "session": "run114",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.945,
+          "mean_kbps": 331200.0
+        },
+        {
+          "file": "lumos_walking_run114_t00200.json",
+          "session": "run114",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.94,
+          "mean_kbps": 514075.0
+        },
+        {
+          "file": "lumos_walking_run030_t00000.json",
+          "session": "run030",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.89,
+          "mean_kbps": 498840.0
+        },
+        {
+          "file": "lumos_walking_run030_t00200.json",
+          "session": "run030",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.97,
+          "mean_kbps": 849480.0
+        },
+        {
+          "file": "lumos_walking_run030_t00400.json",
+          "session": "run030",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.91,
+          "mean_kbps": 776825.0
+        },
+        {
+          "file": "lumos_walking_run112_t00200.json",
+          "session": "run112",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.95,
+          "mean_kbps": 764810.0
+        },
+        {
+          "file": "lumos_walking_run046_t00000.json",
+          "session": "run046",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.85,
+          "mean_kbps": 616855.0
+        },
+        {
+          "file": "lumos_walking_run046_t00200.json",
+          "session": "run046",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.915,
+          "mean_kbps": 728555.0
+        },
+        {
+          "file": "lumos_walking_run046_t00400.json",
+          "session": "run046",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.815,
+          "mean_kbps": 472065.0
+        },
+        {
+          "file": "lumos_walking_run060_t00000.json",
+          "session": "run060",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.93,
+          "mean_kbps": 807760.0
+        },
+        {
+          "file": "lumos_walking_run060_t00200.json",
+          "session": "run060",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.965,
+          "mean_kbps": 841345.0
+        },
+        {
+          "file": "lumos_walking_run098_t00000.json",
+          "session": "run098",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.82,
+          "mean_kbps": 517505.0
+        },
+        {
+          "file": "lumos_walking_run098_t00200.json",
+          "session": "run098",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.92,
+          "mean_kbps": 1066575.0
+        },
+        {
+          "file": "lumos_walking_run098_t00400.json",
+          "session": "run098",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.81,
+          "mean_kbps": 517815.0
+        },
+        {
+          "file": "lumos_walking_run108_t00000.json",
+          "session": "run108",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.815,
+          "mean_kbps": 564915.0
+        },
+        {
+          "file": "lumos_walking_run108_t00200.json",
+          "session": "run108",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.93,
+          "mean_kbps": 808550.0
+        },
+        {
+          "file": "lumos_walking_run108_t00400.json",
+          "session": "run108",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.87,
+          "mean_kbps": 483370.0
+        },
+        {
+          "file": "lumos_walking_run113_t00400.json",
+          "session": "run113",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.945,
+          "mean_kbps": 489495.0
+        },
+        {
+          "file": "lumos_walking_run012_t00000.json",
+          "session": "run012",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.87,
+          "mean_kbps": 786590.0
+        },
+        {
+          "file": "lumos_walking_run012_t00200.json",
+          "session": "run012",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.97,
+          "mean_kbps": 805150.0
+        },
+        {
+          "file": "lumos_walking_run084_t00200.json",
+          "session": "run084",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.81,
+          "mean_kbps": 627700.0
+        },
+        {
+          "file": "lumos_walking_run084_t00400.json",
+          "session": "run084",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.85,
+          "mean_kbps": 600910.0
+        },
+        {
+          "file": "lumos_walking_run028_t00000.json",
+          "session": "run028",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.825,
+          "mean_kbps": 520935.0
+        },
+        {
+          "file": "lumos_walking_run028_t00200.json",
+          "session": "run028",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.96,
+          "mean_kbps": 732730.0
+        },
+        {
+          "file": "lumos_walking_run028_t00400.json",
+          "session": "run028",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.875,
+          "mean_kbps": 563260.0
+        },
+        {
+          "file": "lumos_walking_run013_t00000.json",
+          "session": "run013",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.965,
+          "mean_kbps": 903405.0
+        },
+        {
+          "file": "lumos_walking_run013_t00200.json",
+          "session": "run013",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.9,
+          "mean_kbps": 747240.0
+        },
+        {
+          "file": "lumos_walking_run013_t00400.json",
+          "session": "run013",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.835,
+          "mean_kbps": 488405.0
+        },
+        {
+          "file": "lumos_walking_run011_t00200.json",
+          "session": "run011",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.91,
+          "mean_kbps": 748135.0
+        },
+        {
+          "file": "lumos_walking_run054_t00000.json",
+          "session": "run054",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.895,
+          "mean_kbps": 631455.0
+        },
+        {
+          "file": "lumos_walking_run054_t00200.json",
+          "session": "run054",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.925,
+          "mean_kbps": 731545.0
+        },
+        {
+          "file": "lumos_walking_run004_t00000.json",
+          "session": "run004",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.905,
+          "mean_kbps": 866645.0
+        },
+        {
+          "file": "lumos_walking_run004_t00200.json",
+          "session": "run004",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.935,
+          "mean_kbps": 933875.0
+        },
+        {
+          "file": "lumos_walking_run045_t00000.json",
+          "session": "run045",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.8,
+          "mean_kbps": 419495.0
+        },
+        {
+          "file": "lumos_walking_run045_t00200.json",
+          "session": "run045",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.955,
+          "mean_kbps": 875855.0
+        },
+        {
+          "file": "lumos_walking_run096_t00000.json",
+          "session": "run096",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.91,
+          "mean_kbps": 630865.0
+        },
+        {
+          "file": "lumos_walking_run096_t00200.json",
+          "session": "run096",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.965,
+          "mean_kbps": 980760.0
+        },
+        {
+          "file": "lumos_walking_run096_t00400.json",
+          "session": "run096",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.895,
+          "mean_kbps": 469495.0
+        },
+        {
+          "file": "lumos_walking_run105_t00400.json",
+          "session": "run105",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.865,
+          "mean_kbps": 417435.0
+        },
+        {
+          "file": "lumos_walking_run087_t00200.json",
+          "session": "run087",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.95,
+          "mean_kbps": 1008745.0
+        },
+        {
+          "file": "lumos_walking_run043_t00200.json",
+          "session": "run043",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.96,
+          "mean_kbps": 661400.0
+        },
+        {
+          "file": "lumos_walking_run020_t00000.json",
+          "session": "run020",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.8,
+          "mean_kbps": 369665.0
+        },
+        {
+          "file": "lumos_walking_run020_t00200.json",
+          "session": "run020",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.915,
+          "mean_kbps": 675755.0
+        },
+        {
+          "file": "lumos_walking_run110_t00000.json",
+          "session": "run110",
+          "mobility": "walking",
+          "start_s": 0,
+          "nr_frac": 0.92,
+          "mean_kbps": 686145.0
+        },
+        {
+          "file": "lumos_walking_run110_t00200.json",
+          "session": "run110",
+          "mobility": "walking",
+          "start_s": 200,
+          "nr_frac": 0.955,
+          "mean_kbps": 810200.0
+        },
+        {
+          "file": "lumos_walking_run109_t00400.json",
+          "session": "run109",
+          "mobility": "walking",
+          "start_s": 400,
+          "nr_frac": 0.95,
+          "mean_kbps": 1007650.0
+        }
+      ]
+    }
+  }
+}

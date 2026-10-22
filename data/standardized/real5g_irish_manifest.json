@@ -1,0 +1,1233 @@
+{
+  "dataset": "irish",
+  "variant": "4s_block_mean",
+  "window_s": 200,
+  "calib_fraction": 0.4,
+  "split_seed": 2026,
+  "pools": {
+    "train": {
+      "dir": "data/standardized/train_traces_real5g_irish",
+      "sessions": [
+        {
+          "dataset": "irish",
+          "session": "B_2019.12.14_10.16.30",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2019.12.14_10.16.30.csv",
+          "seconds": 1163,
+          "missing_seconds_ffilled": 154,
+          "idle_rows_dropped": 6,
+          "frac_5g": 0.4522785898538263,
+          "n_windows": 2
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.02.13_15.02.01",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2020.02.13_15.02.01.csv",
+          "seconds": 3777,
+          "missing_seconds_ffilled": 604,
+          "idle_rows_dropped": 16,
+          "frac_5g": 0.594387079692878,
+          "n_windows": 6
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2019.12.16_12.27.05",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2019.12.16_12.27.05.csv",
+          "seconds": 1352,
+          "missing_seconds_ffilled": 177,
+          "idle_rows_dropped": 7,
+          "frac_5g": 0.7322485207100592,
+          "n_windows": 4
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.01.16_12.10.03",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2020.01.16_12.10.03.csv",
+          "seconds": 387,
+          "missing_seconds_ffilled": 52,
+          "idle_rows_dropped": 6,
+          "frac_5g": 1.0,
+          "n_windows": 1
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.02.14_09.38.22",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2020.02.14_09.38.22.csv",
+          "seconds": 1719,
+          "missing_seconds_ffilled": 271,
+          "idle_rows_dropped": 5,
+          "frac_5g": 0.30831878999418266,
+          "n_windows": 1
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "src": "5G-production-dataset/Download/Static/B_2020.01.16_10.43.34.csv",
+          "seconds": 3680,
+          "missing_seconds_ffilled": 615,
+          "idle_rows_dropped": 15,
+          "frac_5g": 1.0,
+          "n_windows": 18
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "src": "5G-production-dataset/Download/Static/B_2020.02.13_13.57.29.csv",
+          "seconds": 3498,
+          "missing_seconds_ffilled": 580,
+          "idle_rows_dropped": 3,
+          "frac_5g": 1.0,
+          "n_windows": 17
+        }
+      ],
+      "n_sessions": 7,
+      "n_traces": 49,
+      "kbps_raw": {
+        "mean": 59127.47290816327,
+        "median": 24975.75,
+        "p10": 7922.875000000001,
+        "p5": 5317.25,
+        "max": 362945.0
+      },
+      "frac_samples_above_20mbps": 0.5697959183673469,
+      "frac_samples_below_6mbps": 0.061632653061224486,
+      "frac_samples_below_1_2mbps": 0.022857142857142857,
+      "sim_view_kbps": {
+        "mean": 16565.173221371882,
+        "median": 20000.0,
+        "frac_below_6000": 0.06164965986394558,
+        "frac_below_2850": 0.03018707482993197
+      },
+      "traces": [
+        {
+          "file": "irish_driving_B_2019.12.14_10.16.30_t00000.json",
+          "session": "B_2019.12.14_10.16.30",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 11966.235
+        },
+        {
+          "file": "irish_driving_B_2019.12.14_10.16.30_t00200.json",
+          "session": "B_2019.12.14_10.16.30",
+          "mobility": "driving",
+          "start_s": 200,
+          "nr_frac": 1.0,
+          "mean_kbps": 10543.5375
+        },
+        {
+          "file": "irish_driving_B_2020.02.13_15.02.01_t00000.json",
+          "session": "B_2020.02.13_15.02.01",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 85641.62166666667
+        },
+        {
+          "file": "irish_driving_B_2020.02.13_15.02.01_t00200.json",
+          "session": "B_2020.02.13_15.02.01",
+          "mobility": "driving",
+          "start_s": 200,
+          "nr_frac": 1.0,
+          "mean_kbps": 93502.2925
+        },
+        {
+          "file": "irish_driving_B_2020.02.13_15.02.01_t01117.json",
+          "session": "B_2020.02.13_15.02.01",
+          "mobility": "driving",
+          "start_s": 1117,
+          "nr_frac": 1.0,
+          "mean_kbps": 82550.76916666667
+        },
+        {
+          "file": "irish_driving_B_2020.02.13_15.02.01_t01537.json",
+          "session": "B_2020.02.13_15.02.01",
+          "mobility": "driving",
+          "start_s": 1537,
+          "nr_frac": 1.0,
+          "mean_kbps": 6472.02
+        },
+        {
+          "file": "irish_driving_B_2020.02.13_15.02.01_t01869.json",
+          "session": "B_2020.02.13_15.02.01",
+          "mobility": "driving",
+          "start_s": 1869,
+          "nr_frac": 1.0,
+          "mean_kbps": 69304.04833333332
+        },
+        {
+          "file": "irish_driving_B_2020.02.13_15.02.01_t02823.json",
+          "session": "B_2020.02.13_15.02.01",
+          "mobility": "driving",
+          "start_s": 2823,
+          "nr_frac": 1.0,
+          "mean_kbps": 50820.6325
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_12.27.05_t00000.json",
+          "session": "B_2019.12.16_12.27.05",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 11368.835833333334
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_12.27.05_t00739.json",
+          "session": "B_2019.12.16_12.27.05",
+          "mobility": "driving",
+          "start_s": 739,
+          "nr_frac": 1.0,
+          "mean_kbps": 42442.98083333333
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_12.27.05_t00939.json",
+          "session": "B_2019.12.16_12.27.05",
+          "mobility": "driving",
+          "start_s": 939,
+          "nr_frac": 1.0,
+          "mean_kbps": 62250.84
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_12.27.05_t01139.json",
+          "session": "B_2019.12.16_12.27.05",
+          "mobility": "driving",
+          "start_s": 1139,
+          "nr_frac": 1.0,
+          "mean_kbps": 45945.0975
+        },
+        {
+          "file": "irish_driving_B_2020.01.16_12.10.03_t00000.json",
+          "session": "B_2020.01.16_12.10.03",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 148747.3
+        },
+        {
+          "file": "irish_driving_B_2020.02.14_09.38.22_t01401.json",
+          "session": "B_2020.02.14_09.38.22",
+          "mobility": "driving",
+          "start_s": 1401,
+          "nr_frac": 1.0,
+          "mean_kbps": 62771.475
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t00000.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 33676.36
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t00200.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 200,
+          "nr_frac": 1.0,
+          "mean_kbps": 94210.9125
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t00400.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 400,
+          "nr_frac": 1.0,
+          "mean_kbps": 43305.5575
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t00600.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 600,
+          "nr_frac": 1.0,
+          "mean_kbps": 87910.005
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t00800.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 800,
+          "nr_frac": 1.0,
+          "mean_kbps": 78841.17
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t01000.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 1000,
+          "nr_frac": 1.0,
+          "mean_kbps": 39476.4025
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t01200.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 1200,
+          "nr_frac": 1.0,
+          "mean_kbps": 33568.91
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t01400.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 1400,
+          "nr_frac": 1.0,
+          "mean_kbps": 45940.83
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t01600.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 1600,
+          "nr_frac": 1.0,
+          "mean_kbps": 94525.16
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t01800.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 1800,
+          "nr_frac": 1.0,
+          "mean_kbps": 104220.7275
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t02000.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 2000,
+          "nr_frac": 1.0,
+          "mean_kbps": 126582.1725
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t02200.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 2200,
+          "nr_frac": 1.0,
+          "mean_kbps": 66347.9425
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t02400.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 2400,
+          "nr_frac": 1.0,
+          "mean_kbps": 41773.0525
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t02600.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 2600,
+          "nr_frac": 1.0,
+          "mean_kbps": 76155.9975
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t02800.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 2800,
+          "nr_frac": 1.0,
+          "mean_kbps": 114255.52
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t03000.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 3000,
+          "nr_frac": 1.0,
+          "mean_kbps": 45989.705
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t03200.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 3200,
+          "nr_frac": 1.0,
+          "mean_kbps": 23096.6525
+        },
+        {
+          "file": "irish_static_B_2020.01.16_10.43.34_t03400.json",
+          "session": "B_2020.01.16_10.43.34",
+          "mobility": "static",
+          "start_s": 3400,
+          "nr_frac": 1.0,
+          "mean_kbps": 153026.9425
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t00000.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 49870.495
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t00200.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 200,
+          "nr_frac": 1.0,
+          "mean_kbps": 66478.0025
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t00400.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 400,
+          "nr_frac": 1.0,
+          "mean_kbps": 50214.435
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t00600.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 600,
+          "nr_frac": 1.0,
+          "mean_kbps": 40429.4275
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t00800.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 800,
+          "nr_frac": 1.0,
+          "mean_kbps": 19450.1625
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t01000.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 1000,
+          "nr_frac": 1.0,
+          "mean_kbps": 8689.8625
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t01200.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 1200,
+          "nr_frac": 1.0,
+          "mean_kbps": 35915.70666666667
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t01400.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 1400,
+          "nr_frac": 1.0,
+          "mean_kbps": 48841.515
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t01600.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 1600,
+          "nr_frac": 1.0,
+          "mean_kbps": 26984.8025
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t01800.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 1800,
+          "nr_frac": 1.0,
+          "mean_kbps": 34116.245
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t02000.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 2000,
+          "nr_frac": 1.0,
+          "mean_kbps": 108604.695
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t02200.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 2200,
+          "nr_frac": 1.0,
+          "mean_kbps": 102837.6825
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t02400.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 2400,
+          "nr_frac": 1.0,
+          "mean_kbps": 30709.22
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t02600.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 2600,
+          "nr_frac": 1.0,
+          "mean_kbps": 25948.1975
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t02800.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 2800,
+          "nr_frac": 1.0,
+          "mean_kbps": 62909.485
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t03000.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 3000,
+          "nr_frac": 1.0,
+          "mean_kbps": 64076.6425
+        },
+        {
+          "file": "irish_static_B_2020.02.13_13.57.29_t03200.json",
+          "session": "B_2020.02.13_13.57.29",
+          "mobility": "static",
+          "start_s": 3200,
+          "nr_frac": 1.0,
+          "mean_kbps": 33937.89
+        }
+      ]
+    },
+    "test": {
+      "dir": "data/standardized/test_traces_real5g_irish",
+      "sessions": [
+        {
+          "dataset": "irish",
+          "session": "B_2020.01.16_09.56.56",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2020.01.16_09.56.56.csv",
+          "seconds": 1825,
+          "missing_seconds_ffilled": 298,
+          "idle_rows_dropped": 10,
+          "frac_5g": 0.718904109589041,
+          "n_windows": 3
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2019.12.17_07.32.39",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2019.12.17_07.32.39.csv",
+          "seconds": 2625,
+          "missing_seconds_ffilled": 352,
+          "idle_rows_dropped": 29,
+          "frac_5g": 0.6205714285714286,
+          "n_windows": 3
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2019.12.16_14.23.32",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2019.12.16_14.23.32.csv",
+          "seconds": 2950,
+          "missing_seconds_ffilled": 383,
+          "idle_rows_dropped": 30,
+          "frac_5g": 0.6972881355932203,
+          "n_windows": 6
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.02.27_20.35.57",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2020.02.27_20.35.57.csv",
+          "seconds": 850,
+          "missing_seconds_ffilled": 119,
+          "idle_rows_dropped": 3,
+          "frac_5g": 0.38235294117647056,
+          "n_windows": 1
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.02.14_07.29.00",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2020.02.14_07.29.00.csv",
+          "seconds": 2271,
+          "missing_seconds_ffilled": 363,
+          "idle_rows_dropped": 6,
+          "frac_5g": 0.35887274328489654,
+          "n_windows": 2
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.02.13_13.03.24",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2020.02.13_13.03.24.csv",
+          "seconds": 2668,
+          "missing_seconds_ffilled": 466,
+          "idle_rows_dropped": 26,
+          "frac_5g": 0.33470764617691157,
+          "n_windows": 4
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.01.16_07.26.43",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2020.01.16_07.26.43.csv",
+          "seconds": 2090,
+          "missing_seconds_ffilled": 344,
+          "idle_rows_dropped": 10,
+          "frac_5g": 0.454066985645933,
+          "n_windows": 2
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2019.12.16_07.22.43",
+          "mobility": "driving",
+          "src": "5G-production-dataset/Download/Driving/B_2019.12.16_07.22.43.csv",
+          "seconds": 2597,
+          "missing_seconds_ffilled": 333,
+          "idle_rows_dropped": 22,
+          "frac_5g": 0.5841355410088563,
+          "n_windows": 3
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "src": "5G-production-dataset/Download/Static/B_2019.12.16_13.40.04.csv",
+          "seconds": 2282,
+          "missing_seconds_ffilled": 328,
+          "idle_rows_dropped": 34,
+          "frac_5g": 1.0,
+          "n_windows": 11
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.02.14_13.21.26",
+          "mobility": "static",
+          "src": "5G-production-dataset/Download/Static/B_2020.02.14_13.21.26.csv",
+          "seconds": 1103,
+          "missing_seconds_ffilled": 168,
+          "idle_rows_dropped": 4,
+          "frac_5g": 1.0,
+          "n_windows": 5
+        },
+        {
+          "dataset": "irish",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "src": "5G-production-dataset/Download/Static/B_2020.02.27_18.39.27.csv",
+          "seconds": 6654,
+          "missing_seconds_ffilled": 1093,
+          "idle_rows_dropped": 9,
+          "frac_5g": 1.0,
+          "n_windows": 33
+        }
+      ],
+      "n_sessions": 11,
+      "n_traces": 73,
+      "kbps_raw": {
+        "mean": 67501.10878995433,
+        "median": 35521.125,
+        "p10": 6067.725000000001,
+        "p5": 1364.375,
+        "max": 409143.75
+      },
+      "frac_samples_above_20mbps": 0.6405479452054794,
+      "frac_samples_below_6mbps": 0.09917808219178083,
+      "frac_samples_below_1_2mbps": 0.04904109589041096,
+      "sim_view_kbps": {
+        "mean": 16274.125130802891,
+        "median": 20000.0,
+        "frac_below_6000": 0.09931506849315068,
+        "frac_below_2850": 0.0639269406392694
+      },
+      "traces": [
+        {
+          "file": "irish_driving_B_2020.01.16_09.56.56_t00169.json",
+          "session": "B_2020.01.16_09.56.56",
+          "mobility": "driving",
+          "start_s": 169,
+          "nr_frac": 1.0,
+          "mean_kbps": 36867.86
+        },
+        {
+          "file": "irish_driving_B_2020.01.16_09.56.56_t01369.json",
+          "session": "B_2020.01.16_09.56.56",
+          "mobility": "driving",
+          "start_s": 1369,
+          "nr_frac": 1.0,
+          "mean_kbps": 70975.4425
+        },
+        {
+          "file": "irish_driving_B_2020.01.16_09.56.56_t01569.json",
+          "session": "B_2020.01.16_09.56.56",
+          "mobility": "driving",
+          "start_s": 1569,
+          "nr_frac": 1.0,
+          "mean_kbps": 94614.7675
+        },
+        {
+          "file": "irish_driving_B_2019.12.17_07.32.39_t00000.json",
+          "session": "B_2019.12.17_07.32.39",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 12159.3225
+        },
+        {
+          "file": "irish_driving_B_2019.12.17_07.32.39_t00200.json",
+          "session": "B_2019.12.17_07.32.39",
+          "mobility": "driving",
+          "start_s": 200,
+          "nr_frac": 1.0,
+          "mean_kbps": 15456.9725
+        },
+        {
+          "file": "irish_driving_B_2019.12.17_07.32.39_t01533.json",
+          "session": "B_2019.12.17_07.32.39",
+          "mobility": "driving",
+          "start_s": 1533,
+          "nr_frac": 1.0,
+          "mean_kbps": 12530.3575
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_14.23.32_t00000.json",
+          "session": "B_2019.12.16_14.23.32",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 119569.9175
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_14.23.32_t00200.json",
+          "session": "B_2019.12.16_14.23.32",
+          "mobility": "driving",
+          "start_s": 200,
+          "nr_frac": 1.0,
+          "mean_kbps": 116384.865
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_14.23.32_t00400.json",
+          "session": "B_2019.12.16_14.23.32",
+          "mobility": "driving",
+          "start_s": 400,
+          "nr_frac": 1.0,
+          "mean_kbps": 97202.645
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_14.23.32_t00600.json",
+          "session": "B_2019.12.16_14.23.32",
+          "mobility": "driving",
+          "start_s": 600,
+          "nr_frac": 1.0,
+          "mean_kbps": 77109.0225
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_14.23.32_t01534.json",
+          "session": "B_2019.12.16_14.23.32",
+          "mobility": "driving",
+          "start_s": 1534,
+          "nr_frac": 1.0,
+          "mean_kbps": 44097.4825
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_14.23.32_t02522.json",
+          "session": "B_2019.12.16_14.23.32",
+          "mobility": "driving",
+          "start_s": 2522,
+          "nr_frac": 1.0,
+          "mean_kbps": 102308.3725
+        },
+        {
+          "file": "irish_driving_B_2020.02.27_20.35.57_t00000.json",
+          "session": "B_2020.02.27_20.35.57",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 73788.17
+        },
+        {
+          "file": "irish_driving_B_2020.02.14_07.29.00_t01254.json",
+          "session": "B_2020.02.14_07.29.00",
+          "mobility": "driving",
+          "start_s": 1254,
+          "nr_frac": 1.0,
+          "mean_kbps": 50747.55
+        },
+        {
+          "file": "irish_driving_B_2020.02.14_07.29.00_t01743.json",
+          "session": "B_2020.02.14_07.29.00",
+          "mobility": "driving",
+          "start_s": 1743,
+          "nr_frac": 1.0,
+          "mean_kbps": 48743.52666666666
+        },
+        {
+          "file": "irish_driving_B_2020.02.13_13.03.24_t00000.json",
+          "session": "B_2020.02.13_13.03.24",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 8086.055
+        },
+        {
+          "file": "irish_driving_B_2020.02.13_13.03.24_t00200.json",
+          "session": "B_2020.02.13_13.03.24",
+          "mobility": "driving",
+          "start_s": 200,
+          "nr_frac": 1.0,
+          "mean_kbps": 9200.5625
+        },
+        {
+          "file": "irish_driving_B_2020.02.13_13.03.24_t00400.json",
+          "session": "B_2020.02.13_13.03.24",
+          "mobility": "driving",
+          "start_s": 400,
+          "nr_frac": 1.0,
+          "mean_kbps": 8211.05
+        },
+        {
+          "file": "irish_driving_B_2020.02.13_13.03.24_t00600.json",
+          "session": "B_2020.02.13_13.03.24",
+          "mobility": "driving",
+          "start_s": 600,
+          "nr_frac": 1.0,
+          "mean_kbps": 7790.475
+        },
+        {
+          "file": "irish_driving_B_2020.01.16_07.26.43_t00000.json",
+          "session": "B_2020.01.16_07.26.43",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 9512.165
+        },
+        {
+          "file": "irish_driving_B_2020.01.16_07.26.43_t01080.json",
+          "session": "B_2020.01.16_07.26.43",
+          "mobility": "driving",
+          "start_s": 1080,
+          "nr_frac": 1.0,
+          "mean_kbps": 16712.2425
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_07.22.43_t00000.json",
+          "session": "B_2019.12.16_07.22.43",
+          "mobility": "driving",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 9879.574166666667
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_07.22.43_t02186.json",
+          "session": "B_2019.12.16_07.22.43",
+          "mobility": "driving",
+          "start_s": 2186,
+          "nr_frac": 1.0,
+          "mean_kbps": 23499.109166666665
+        },
+        {
+          "file": "irish_driving_B_2019.12.16_07.22.43_t02386.json",
+          "session": "B_2019.12.16_07.22.43",
+          "mobility": "driving",
+          "start_s": 2386,
+          "nr_frac": 1.0,
+          "mean_kbps": 9194.144166666667
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t00000.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 103076.1025
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t00200.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 200,
+          "nr_frac": 1.0,
+          "mean_kbps": 28947.4375
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t00400.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 400,
+          "nr_frac": 1.0,
+          "mean_kbps": 19066.52
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t00600.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 600,
+          "nr_frac": 1.0,
+          "mean_kbps": 68318.48
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t00800.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 800,
+          "nr_frac": 1.0,
+          "mean_kbps": 103474.1175
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t01000.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 1000,
+          "nr_frac": 1.0,
+          "mean_kbps": 24865.025
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t01200.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 1200,
+          "nr_frac": 1.0,
+          "mean_kbps": 6790.9575
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t01400.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 1400,
+          "nr_frac": 1.0,
+          "mean_kbps": 23328.225
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t01600.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 1600,
+          "nr_frac": 1.0,
+          "mean_kbps": 110195.2775
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t01800.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 1800,
+          "nr_frac": 1.0,
+          "mean_kbps": 53692.27
+        },
+        {
+          "file": "irish_static_B_2019.12.16_13.40.04_t02000.json",
+          "session": "B_2019.12.16_13.40.04",
+          "mobility": "static",
+          "start_s": 2000,
+          "nr_frac": 1.0,
+          "mean_kbps": 43052.73
+        },
+        {
+          "file": "irish_static_B_2020.02.14_13.21.26_t00000.json",
+          "session": "B_2020.02.14_13.21.26",
+          "mobility": "static",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 124914.4475
+        },
+        {
+          "file": "irish_static_B_2020.02.14_13.21.26_t00200.json",
+          "session": "B_2020.02.14_13.21.26",
+          "mobility": "static",
+          "start_s": 200,
+          "nr_frac": 1.0,
+          "mean_kbps": 135458.075
+        },
+        {
+          "file": "irish_static_B_2020.02.14_13.21.26_t00400.json",
+          "session": "B_2020.02.14_13.21.26",
+          "mobility": "static",
+          "start_s": 400,
+          "nr_frac": 1.0,
+          "mean_kbps": 124520.855
+        },
+        {
+          "file": "irish_static_B_2020.02.14_13.21.26_t00600.json",
+          "session": "B_2020.02.14_13.21.26",
+          "mobility": "static",
+          "start_s": 600,
+          "nr_frac": 1.0,
+          "mean_kbps": 156277.7825
+        },
+        {
+          "file": "irish_static_B_2020.02.14_13.21.26_t00800.json",
+          "session": "B_2020.02.14_13.21.26",
+          "mobility": "static",
+          "start_s": 800,
+          "nr_frac": 1.0,
+          "mean_kbps": 116164.725
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t00000.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 0,
+          "nr_frac": 1.0,
+          "mean_kbps": 120134.19
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t00200.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 200,
+          "nr_frac": 1.0,
+          "mean_kbps": 95914.83
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t00400.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 400,
+          "nr_frac": 1.0,
+          "mean_kbps": 58509.52
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t00600.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 600,
+          "nr_frac": 1.0,
+          "mean_kbps": 59537.085
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t00800.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 800,
+          "nr_frac": 1.0,
+          "mean_kbps": 75975.655
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t01000.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 1000,
+          "nr_frac": 1.0,
+          "mean_kbps": 48991.99
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t01200.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 1200,
+          "nr_frac": 1.0,
+          "mean_kbps": 18758.3725
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t01400.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 1400,
+          "nr_frac": 1.0,
+          "mean_kbps": 124053.0675
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t01600.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 1600,
+          "nr_frac": 1.0,
+          "mean_kbps": 54235.8775
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t01800.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 1800,
+          "nr_frac": 1.0,
+          "mean_kbps": 30425.4675
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t02000.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 2000,
+          "nr_frac": 1.0,
+          "mean_kbps": 37948.5275
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t02200.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 2200,
+          "nr_frac": 1.0,
+          "mean_kbps": 60389.345
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t02400.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 2400,
+          "nr_frac": 1.0,
+          "mean_kbps": 50423.3
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t02600.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 2600,
+          "nr_frac": 1.0,
+          "mean_kbps": 40101.2525
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t02800.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 2800,
+          "nr_frac": 1.0,
+          "mean_kbps": 104392.835
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t03000.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 3000,
+          "nr_frac": 1.0,
+          "mean_kbps": 106105.47
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t03200.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 3200,
+          "nr_frac": 1.0,
+          "mean_kbps": 68297.175
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t03400.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 3400,
+          "nr_frac": 1.0,
+          "mean_kbps": 22622.875
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t03600.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 3600,
+          "nr_frac": 1.0,
+          "mean_kbps": 82654.865
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t03800.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 3800,
+          "nr_frac": 1.0,
+          "mean_kbps": 109995.405
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t04000.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 4000,
+          "nr_frac": 1.0,
+          "mean_kbps": 73903.3875
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t04200.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 4200,
+          "nr_frac": 1.0,
+          "mean_kbps": 88189.0375
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t04400.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 4400,
+          "nr_frac": 1.0,
+          "mean_kbps": 116507.045
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t04600.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 4600,
+          "nr_frac": 1.0,
+          "mean_kbps": 106132.38
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t04800.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 4800,
+          "nr_frac": 1.0,
+          "mean_kbps": 56686.6975
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t05000.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 5000,
+          "nr_frac": 1.0,
+          "mean_kbps": 40873.7425
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t05200.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 5200,
+          "nr_frac": 1.0,
+          "mean_kbps": 14948.07
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t05400.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 5400,
+          "nr_frac": 1.0,
+          "mean_kbps": 118017.3575
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t05600.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 5600,
+          "nr_frac": 1.0,
+          "mean_kbps": 107003.6425
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t05800.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 5800,
+          "nr_frac": 1.0,
+          "mean_kbps": 127514.6775
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t06000.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 6000,
+          "nr_frac": 1.0,
+          "mean_kbps": 139429.7
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t06200.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 6200,
+          "nr_frac": 1.0,
+          "mean_kbps": 160084.1175
+        },
+        {
+          "file": "irish_static_B_2020.02.27_18.39.27_t06400.json",
+          "session": "B_2020.02.27_18.39.27",
+          "mobility": "static",
+          "start_s": 6400,
+          "nr_frac": 1.0,
+          "mean_kbps": 92039.3025
+        }
+      ]
+    }
+  }
+}

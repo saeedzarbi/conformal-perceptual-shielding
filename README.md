@@ -17,7 +17,7 @@ src/environment/    simulator (abr_multi_env_v18.py and the classes it extends)
 src/training/       CPS (certified_perceptual_shield.py), safety shield, PPO / co-design / Pensieve training
 src/baselines/      BBA, MPC, VMAF-MPC, genie
 src/evaluation/     evaluation driver (eval_certified_shield_v18.py), coverage-drift and per-chunk ablations
-data/               trace generator and preparation scripts, per-chunk VMAF tables, SI/TI features
+data/               trace generator and preparation scripts, per-chunk VMAF tables, SI/TI features, processed per-episode results (`data/episode_results/`)
 analysis/   statistics (primary.py, analyse.py, rho_selection.py), table/figure scripts, analysis plan (PREREG*.md)
 outputs/            created by the scripts (figures, tables); not tracked
 ```
@@ -57,8 +57,7 @@ PPO hosts are trained with `src/training/train_all_models_v18.py`, `train_codesi
 and `train_pensieve_r7.py`; trained checkpoints are not included.
 
 ## Statistics and figures
-With evaluation outputs under `analysis/` (one directory per pool/host/setting, e.g. `--out analysis/syn_greedy_b30_warm_a05`, each containing
-`episodes.csv`), run from the repository root:
+Processed per-episode exports used in the paper are under `data/episode_results/` (each run directory has `episodes.csv` and usually `summary.json`). To regenerate tables from those or from fresh eval outputs, place or symlink packs under `analysis/` as needed and run from the repository root:
 ```
 python analysis/rho_selection.py
 python analysis/analyse.py

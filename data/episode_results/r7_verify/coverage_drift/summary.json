@@ -1,0 +1,38 @@
+{
+  "config": {
+    "trace_dir": "data/standardized/test_traces_5g_v18",
+    "episodes": 204,
+    "alpha": 0.1,
+    "shock_start_chunk": 28,
+    "shock_len_chunks": 10,
+    "shock_scale": 0.3,
+    "warmup_chunks": 20,
+    "policy": "greedy",
+    "arm": "certified"
+  },
+  "target_coverage": 0.9,
+  "overall": {
+    "n": 5712,
+    "coverage": 0.9406512605042017
+  },
+  "by_phase": {
+    "warmup": {
+      "n": 3876,
+      "coverage": 0.8931888544891641
+    },
+    "pre": {
+      "n": 1632,
+      "coverage": 0.9564950980392157
+    },
+    "shock": {
+      "n": 2040,
+      "coverage": 0.9122549019607843
+    },
+    "post": {
+      "n": 2040,
+      "coverage": 0.9563725490196079
+    }
+  },
+  "n_chunks_valid": 5712,
+  "n_episodes": 204
+}

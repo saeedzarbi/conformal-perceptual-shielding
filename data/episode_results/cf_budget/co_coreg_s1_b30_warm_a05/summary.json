@@ -1,0 +1,1757 @@
+{
+  "tag": "ppo",
+  "epsilon": 1.0,
+  "alpha": 0.05,
+  "coverage_target": 0.95,
+  "conformal_method": "split-conformal (n+1) finite-sample lower bound",
+  "arms": {
+    "raw": {
+      "rebuffer_total": {
+        "mean": 0.48886835302066345,
+        "ci_lo": 0.3219965216797164,
+        "ci_hi": 0.6739406541167654
+      },
+      "rebuffer_p95_chunk": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_p99_chunk": {
+        "mean": 0.2586443965035329,
+        "ci_lo": 0.1703877906035846,
+        "ci_hi": 0.3566844430126537
+      },
+      "stallfree": {
+        "mean": 0.7107843137254902,
+        "ci_lo": 0.6470588235294118,
+        "ci_hi": 0.7696078431372549
+      },
+      "vmaf_mean": {
+        "mean": 78.69806474673203,
+        "ci_lo": 75.62936672794117,
+        "ci_hi": 81.68809037990195
+      },
+      "bitrate_mean_kbps": {
+        "mean": 1785.1970996732027,
+        "ci_lo": 1687.0948223039215,
+        "ci_hi": 1885.4821537990194
+      },
+      "buffer_mean": {
+        "mean": 26.75892388661602,
+        "ci_lo": 26.57468851804767,
+        "ci_hi": 26.933469034501734
+      },
+      "interv_rate": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "cold_start_frac": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_cold_start": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "conformal_coverage": NaN,
+      "conformal_coverage_meets_target": null
+    },
+    "safety": {
+      "rebuffer_total": {
+        "mean": 0.08216677058631075,
+        "ci_lo": 0.0019892474502573925,
+        "ci_hi": 0.19664125844874705
+      },
+      "rebuffer_p95_chunk": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_p99_chunk": {
+        "mean": 0.043548388410744786,
+        "ci_lo": 0.0010543011486364203,
+        "ci_hi": 0.10421986697783615
+      },
+      "stallfree": {
+        "mean": 0.9754901960784313,
+        "ci_lo": 0.9509803921568627,
+        "ci_hi": 0.9950980392156863
+      },
+      "vmaf_mean": {
+        "mean": 75.93247242647058,
+        "ci_lo": 72.99960332414216,
+        "ci_hi": 78.80630512152777
+      },
+      "bitrate_mean_kbps": {
+        "mean": 1322.196691176471,
+        "ci_lo": 1264.7256689133987,
+        "ci_hi": 1379.7388174019607
+      },
+      "buffer_mean": {
+        "mean": 27.404325863555922,
+        "ci_lo": 27.313238020403833,
+        "ci_hi": 27.490993107696333
+      },
+      "interv_rate": {
+        "mean": 0.12908496732026142,
+        "ci_lo": 0.11529820261437909,
+        "ci_hi": 0.14338235294117646
+      },
+      "cold_start_frac": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_cold_start": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "conformal_coverage": 0.9534313725490197,
+      "conformal_coverage_meets_target": true
+    },
+    "certified": {
+      "rebuffer_total": {
+        "mean": 0.08216677058631075,
+        "ci_lo": 0.0019892474502573925,
+        "ci_hi": 0.19664125844874705
+      },
+      "rebuffer_p95_chunk": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_p99_chunk": {
+        "mean": 0.043548388410744786,
+        "ci_lo": 0.0010543011486364203,
+        "ci_hi": 0.10421986697783615
+      },
+      "stallfree": {
+        "mean": 0.9754901960784313,
+        "ci_lo": 0.9509803921568627,
+        "ci_hi": 0.9950980392156863
+      },
+      "vmaf_mean": {
+        "mean": 75.85236008986928,
+        "ci_lo": 72.92723320057189,
+        "ci_hi": 78.71817445363563
+      },
+      "bitrate_mean_kbps": {
+        "mean": 1286.24897875817,
+        "ci_lo": 1228.471839256536,
+        "ci_hi": 1345.906862745098
+      },
+      "buffer_mean": {
+        "mean": 27.43420925334154,
+        "ci_lo": 27.340486161949226,
+        "ci_hi": 27.523632696324487
+      },
+      "interv_rate": {
+        "mean": 0.14409722222222224,
+        "ci_lo": 0.12836754493464053,
+        "ci_hi": 0.16023284313725492
+      },
+      "cold_start_frac": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_cold_start": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "conformal_coverage": 0.9534313725490197,
+      "conformal_coverage_meets_target": true
+    },
+    "certified_a": {
+      "rebuffer_total": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_p95_chunk": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_p99_chunk": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "stallfree": {
+        "mean": 1.0,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0
+      },
+      "vmaf_mean": {
+        "mean": 75.44865604575163,
+        "ci_lo": 72.52984847324346,
+        "ci_hi": 78.29310380923202
+      },
+      "bitrate_mean_kbps": {
+        "mean": 1077.1905637254902,
+        "ci_lo": 1035.6973805147059,
+        "ci_hi": 1119.6132046568628
+      },
+      "buffer_mean": {
+        "mean": 27.6781573923975,
+        "ci_lo": 27.622712796750495,
+        "ci_hi": 27.730824571912017
+      },
+      "interv_rate": {
+        "mean": 0.23682598039215685,
+        "ci_lo": 0.20414624183006538,
+        "ci_hi": 0.26991676879084964
+      },
+      "cold_start_frac": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_cold_start": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "conformal_coverage": 0.9534313725490197,
+      "conformal_coverage_meets_target": true
+    },
+    "certified_cf": {
+      "rebuffer_total": {
+        "mean": 0.08216677058631075,
+        "ci_lo": 0.0019892474502573925,
+        "ci_hi": 0.19664125844874705
+      },
+      "rebuffer_p95_chunk": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_p99_chunk": {
+        "mean": 0.043548388410744786,
+        "ci_lo": 0.0010543011486364203,
+        "ci_hi": 0.10421986697783615
+      },
+      "stallfree": {
+        "mean": 0.9754901960784313,
+        "ci_lo": 0.9509803921568627,
+        "ci_hi": 0.9950980392156863
+      },
+      "vmaf_mean": {
+        "mean": 75.99789726307189,
+        "ci_lo": 73.05705466196896,
+        "ci_hi": 78.87387574040031
+      },
+      "bitrate_mean_kbps": {
+        "mean": 1301.7667483660132,
+        "ci_lo": 1245.495685253268,
+        "ci_hi": 1358.810763888889
+      },
+      "buffer_mean": {
+        "mean": 27.432538559361948,
+        "ci_lo": 27.340337813146583,
+        "ci_hi": 27.520852273392475
+      },
+      "interv_rate": {
+        "mean": 0.03829656862745098,
+        "ci_lo": 0.029922385620915037,
+        "ci_hi": 0.04718137254901961
+      },
+      "cold_start_frac": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_cold_start": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "conformal_coverage": 0.9534313725490197,
+      "conformal_coverage_meets_target": true,
+      "cf_checks": {
+        "chunks_violating_vmaf_bound": 0,
+        "chunks_violating_rebuffer_dominance": 0,
+        "host_request_differs_from_shadow_frac": 0.02798202614379085,
+        "max_abs_ref_minus_safety_vmaf": 0.0,
+        "max_abs_ref_minus_safety_rebuffer": 0.0
+      }
+    },
+    "certified_a_cf": {
+      "rebuffer_total": {
+        "mean": 0.07084200913061801,
+        "ci_lo": 0.0,
+        "ci_hi": 0.17710502282654503
+      },
+      "rebuffer_p95_chunk": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_p99_chunk": {
+        "mean": 0.03754626483922763,
+        "ci_lo": 0.0,
+        "ci_hi": 0.09386566209806906
+      },
+      "stallfree": {
+        "mean": 0.9901960784313726,
+        "ci_lo": 0.9754901960784313,
+        "ci_hi": 1.0
+      },
+      "vmaf_mean": {
+        "mean": 75.56866319444444,
+        "ci_lo": 72.64491161151962,
+        "ci_hi": 78.41376309742647
+      },
+      "bitrate_mean_kbps": {
+        "mean": 1101.7412173202613,
+        "ci_lo": 1062.9619842728755,
+        "ci_hi": 1141.0518790849671
+      },
+      "buffer_mean": {
+        "mean": 27.567068799747087,
+        "ci_lo": 27.490062361434948,
+        "ci_hi": 27.636182194296282
+      },
+      "interv_rate": {
+        "mean": 0.22977941176470587,
+        "ci_lo": 0.2016952614379085,
+        "ci_hi": 0.25827205882352944
+      },
+      "cold_start_frac": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_cold_start": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "conformal_coverage": 0.9534313725490197,
+      "conformal_coverage_meets_target": true,
+      "cf_checks": {
+        "chunks_violating_vmaf_bound": 0,
+        "chunks_violating_rebuffer_dominance": 0,
+        "host_request_differs_from_shadow_frac": 0.13000408496732027,
+        "max_abs_ref_minus_safety_vmaf": 0.0,
+        "max_abs_ref_minus_safety_rebuffer": 0.0
+      }
+    },
+    "fixed_safety": {
+      "rebuffer_total": {
+        "mean": 0.10311896219619439,
+        "ci_lo": 0.015389283009642542,
+        "ci_hi": 0.22312298323242
+      },
+      "rebuffer_p95_chunk": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_p99_chunk": {
+        "mean": 0.054653049963983145,
+        "ci_lo": 0.008156319995110564,
+        "ci_hi": 0.11825518111318284
+      },
+      "stallfree": {
+        "mean": 0.9705882352941176,
+        "ci_lo": 0.946078431372549,
+        "ci_hi": 0.9901960784313726
+      },
+      "vmaf_mean": {
+        "mean": 77.91672181372547,
+        "ci_lo": 74.87174846813726,
+        "ci_hi": 80.86514619076797
+      },
+      "bitrate_mean_kbps": {
+        "mean": 1676.4093137254902,
+        "ci_lo": 1586.2738715277778,
+        "ci_hi": 1766.1617902369283
+      },
+      "buffer_mean": {
+        "mean": 27.151187236827877,
+        "ci_lo": 27.016264942702264,
+        "ci_hi": 27.27902048541087
+      },
+      "interv_rate": {
+        "mean": 0.022467320261437912,
+        "ci_lo": 0.021548202614379088,
+        "ci_hi": 0.02369281045751634
+      },
+      "cold_start_frac": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_cold_start": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "conformal_coverage": 0.9041053921568627,
+      "conformal_coverage_meets_target": false
+    },
+    "fixed_certified": {
+      "rebuffer_total": {
+        "mean": 0.10311896219619439,
+        "ci_lo": 0.015389283009642542,
+        "ci_hi": 0.22312298323242
+      },
+      "rebuffer_p95_chunk": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_p99_chunk": {
+        "mean": 0.054653049963983145,
+        "ci_lo": 0.008156319995110564,
+        "ci_hi": 0.11825518111318284
+      },
+      "stallfree": {
+        "mean": 0.9705882352941176,
+        "ci_lo": 0.946078431372549,
+        "ci_hi": 0.9901960784313726
+      },
+      "vmaf_mean": {
+        "mean": 77.73786560457516,
+        "ci_lo": 74.70180545343138,
+        "ci_hi": 80.67015367136437
+      },
+      "bitrate_mean_kbps": {
+        "mean": 1603.8296568627452,
+        "ci_lo": 1513.1581903594772,
+        "ci_hi": 1695.8089511846404
+      },
+      "buffer_mean": {
+        "mean": 27.203947298948435,
+        "ci_lo": 27.072711076796047,
+        "ci_hi": 27.332329238826624
+      },
+      "interv_rate": {
+        "mean": 0.04758986928104575,
+        "ci_lo": 0.036762152777777786,
+        "ci_hi": 0.06004901960784314
+      },
+      "cold_start_frac": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_cold_start": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "conformal_coverage": 0.9041053921568627,
+      "conformal_coverage_meets_target": false
+    },
+    "fixed_certified_a": {
+      "rebuffer_total": {
+        "mean": 0.10311896219619439,
+        "ci_lo": 0.015389283009642542,
+        "ci_hi": 0.22312298323242
+      },
+      "rebuffer_p95_chunk": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_p99_chunk": {
+        "mean": 0.054653049963983145,
+        "ci_lo": 0.008156319995110564,
+        "ci_hi": 0.11825518111318284
+      },
+      "stallfree": {
+        "mean": 0.9705882352941176,
+        "ci_lo": 0.946078431372549,
+        "ci_hi": 0.9901960784313726
+      },
+      "vmaf_mean": {
+        "mean": 77.68693831699348,
+        "ci_lo": 74.65108946078432,
+        "ci_hi": 80.62434517973855
+      },
+      "bitrate_mean_kbps": {
+        "mean": 1579.2381535947713,
+        "ci_lo": 1492.6060814950984,
+        "ci_hi": 1667.1785641339866
+      },
+      "buffer_mean": {
+        "mean": 27.239087151983448,
+        "ci_lo": 27.114425588089304,
+        "ci_hi": 27.360116679885383
+      },
+      "interv_rate": {
+        "mean": 0.05994689542483661,
+        "ci_lo": 0.04850898692810457,
+        "ci_hi": 0.07281454248366012
+      },
+      "cold_start_frac": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "rebuffer_cold_start": {
+        "mean": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0
+      },
+      "conformal_coverage": 0.9041053921568627,
+      "conformal_coverage_meets_target": false
+    }
+  },
+  "comparisons": {
+    "certified_vs_safety": {
+      "bandwidth_reduction_pct": -2.718787050231922,
+      "bandwidth_wilcoxon_p": 0.05075890072968892,
+      "rebuffer_change_pct": 0.0,
+      "rebuffer_wilcoxon_p": 1.0,
+      "vmaf_mean_diff": -0.08011233660130761,
+      "vmaf_tost_p_equiv": 2.5111030456112567e-109,
+      "vmaf_within_epsilon": true,
+      "qoe": {
+        "vmaf_diff": -0.08011233660130301,
+        "rebuffer_diff_s": 0.0,
+        "qoe_crossover_w": null,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.85236008986928,
+            "qoe_ref": 75.93247242647058,
+            "qoe_diff": -0.08011233660130301,
+            "wilcoxon_p": 0.08919583560920015,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.77019331928297,
+            "qoe_ref": 75.85030565588427,
+            "qoe_diff": -0.08011233660130301,
+            "wilcoxon_p": 0.08919583560920015,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.68802654869666,
+            "qoe_ref": 75.76813888529796,
+            "qoe_diff": -0.08011233660130301,
+            "wilcoxon_p": 0.08919583560920015,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.44152623693772,
+            "qoe_ref": 75.52163857353902,
+            "qoe_diff": -0.08011233660130301,
+            "wilcoxon_p": 0.08919583560920015,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.03069238400617,
+            "qoe_ref": 75.11080472060748,
+            "qoe_diff": -0.08011233660130301,
+            "wilcoxon_p": 0.08919583560920015,
+            "treat_wins": false
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.20902467814307,
+            "qoe_ref": 74.28913701474437,
+            "qoe_diff": -0.08011233660130301,
+            "wilcoxon_p": 0.08919583560920015,
+            "treat_wins": false
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 71.74402156055373,
+            "qoe_ref": 71.82413389715505,
+            "qoe_diff": -0.08011233660131722,
+            "wilcoxon_p": 0.08919583560920015,
+            "treat_wins": false
+          }
+        ]
+      }
+    },
+    "certified_vs_raw": {
+      "bandwidth_reduction_pct": -27.949189532425848,
+      "bandwidth_wilcoxon_p": 3.0545608271752066e-35,
+      "rebuffer_change_pct": -83.19245455783519,
+      "rebuffer_wilcoxon_p": 4.4217630381207527e-10,
+      "vmaf_mean_diff": -2.8457046568627424,
+      "vmaf_tost_p_equiv": 1.0,
+      "vmaf_within_epsilon": false,
+      "qoe": {
+        "vmaf_diff": -2.8457046568627504,
+        "rebuffer_diff_s": -0.4067015824343527,
+        "qoe_crossover_w": 6.997033647692007,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.85236008986928,
+            "qoe_ref": 78.69806474673203,
+            "qoe_diff": -2.8457046568627504,
+            "wilcoxon_p": 3.163015420969873e-35,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.77019331928297,
+            "qoe_ref": 78.20919639371135,
+            "qoe_diff": -2.439003074428385,
+            "wilcoxon_p": 3.3187784247873174e-32,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.68802654869666,
+            "qoe_ref": 77.72032804069069,
+            "qoe_diff": -2.0323014919940334,
+            "wilcoxon_p": 9.540815511101472e-24,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.44152623693772,
+            "qoe_ref": 76.2537229816287,
+            "qoe_diff": -0.8121967446909792,
+            "wilcoxon_p": 3.810567763100328e-10,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.03069238400617,
+            "qoe_ref": 73.80938121652538,
+            "qoe_diff": 1.221311167480792,
+            "wilcoxon_p": 3.472375172545262e-05,
+            "treat_wins": true
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.20902467814307,
+            "qoe_ref": 68.92069768631875,
+            "qoe_diff": 5.28832699182432,
+            "wilcoxon_p": 0.004179695140353702,
+            "treat_wins": true
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 71.74402156055373,
+            "qoe_ref": 54.25464709569885,
+            "qoe_diff": 17.489374464854883,
+            "wilcoxon_p": 0.18421302798200256,
+            "treat_wins": true
+          }
+        ]
+      }
+    },
+    "safety_vs_raw": {
+      "bandwidth_reduction_pct": -25.935534433788202,
+      "bandwidth_wilcoxon_p": 3.054478047500379e-35,
+      "rebuffer_change_pct": -83.19245455783519,
+      "rebuffer_wilcoxon_p": 4.4217630381207527e-10,
+      "vmaf_mean_diff": -2.7655923202614345,
+      "vmaf_tost_p_equiv": 1.0,
+      "vmaf_within_epsilon": false,
+      "qoe": {
+        "vmaf_diff": -2.7655923202614474,
+        "rebuffer_diff_s": -0.4067015824343527,
+        "qoe_crossover_w": 6.800053011123586,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.93247242647058,
+            "qoe_ref": 78.69806474673203,
+            "qoe_diff": -2.7655923202614474,
+            "wilcoxon_p": 3.163058242634177e-35,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.85030565588427,
+            "qoe_ref": 78.20919639371135,
+            "qoe_diff": -2.358890737827082,
+            "wilcoxon_p": 4.39816684219847e-32,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.76813888529796,
+            "qoe_ref": 77.72032804069069,
+            "qoe_diff": -1.9521891553927304,
+            "wilcoxon_p": 1.8882742996585217e-23,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.52163857353902,
+            "qoe_ref": 76.2537229816287,
+            "qoe_diff": -0.7320844080896762,
+            "wilcoxon_p": 6.86364798988389e-10,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.11080472060748,
+            "qoe_ref": 73.80938121652538,
+            "qoe_diff": 1.301423504082095,
+            "wilcoxon_p": 5.0697678574561294e-05,
+            "treat_wins": true
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.28913701474437,
+            "qoe_ref": 68.92069768631875,
+            "qoe_diff": 5.368439328425623,
+            "wilcoxon_p": 0.005573435573586756,
+            "treat_wins": true
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 71.82413389715505,
+            "qoe_ref": 54.25464709569885,
+            "qoe_diff": 17.5694868014562,
+            "wilcoxon_p": 0.2179697613544329,
+            "treat_wins": true
+          }
+        ]
+      }
+    },
+    "certified_cf_vs_safety": {
+      "bandwidth_reduction_pct": -1.545151560792328,
+      "bandwidth_wilcoxon_p": 3.6276289762470436e-19,
+      "rebuffer_change_pct": 0.0,
+      "rebuffer_wilcoxon_p": 1.0,
+      "vmaf_mean_diff": 0.06542483660130627,
+      "vmaf_tost_p_equiv": 1.1295540871480318e-171,
+      "vmaf_within_epsilon": true,
+      "qoe": {
+        "vmaf_diff": 0.06542483660130927,
+        "rebuffer_diff_s": 0.0,
+        "qoe_crossover_w": null,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.99789726307189,
+            "qoe_ref": 75.93247242647058,
+            "qoe_diff": 0.06542483660130927,
+            "wilcoxon_p": 7.476644168231827e-07,
+            "treat_wins": true
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.91573049248558,
+            "qoe_ref": 75.85030565588427,
+            "qoe_diff": 0.06542483660130927,
+            "wilcoxon_p": 7.476644168231827e-07,
+            "treat_wins": true
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.83356372189927,
+            "qoe_ref": 75.76813888529796,
+            "qoe_diff": 0.06542483660130927,
+            "wilcoxon_p": 7.476644168231827e-07,
+            "treat_wins": true
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.58706341014035,
+            "qoe_ref": 75.52163857353902,
+            "qoe_diff": 0.06542483660132348,
+            "wilcoxon_p": 7.476644168231827e-07,
+            "treat_wins": true
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.17622955720879,
+            "qoe_ref": 75.11080472060748,
+            "qoe_diff": 0.06542483660130927,
+            "wilcoxon_p": 7.476644168231827e-07,
+            "treat_wins": true
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.35456185134568,
+            "qoe_ref": 74.28913701474437,
+            "qoe_diff": 0.06542483660130927,
+            "wilcoxon_p": 7.476644168231827e-07,
+            "treat_wins": true
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 71.88955873375635,
+            "qoe_ref": 71.82413389715505,
+            "qoe_diff": 0.06542483660129506,
+            "wilcoxon_p": 7.476782904618614e-07,
+            "treat_wins": true
+          }
+        ]
+      }
+    },
+    "certified_a_cf_vs_safety": {
+      "bandwidth_reduction_pct": -16.673425015158042,
+      "bandwidth_wilcoxon_p": 3.345617672089967e-32,
+      "rebuffer_change_pct": -13.78265371132826,
+      "rebuffer_wilcoxon_p": 0.67958259330237,
+      "vmaf_mean_diff": -0.36380923202614324,
+      "vmaf_tost_p_equiv": 1.8709745928874486e-111,
+      "vmaf_within_epsilon": true,
+      "qoe": {
+        "vmaf_diff": -0.3638092320261421,
+        "rebuffer_diff_s": -0.011324761455692736,
+        "qoe_crossover_w": 32.125112166778784,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.56866319444444,
+            "qoe_ref": 75.93247242647058,
+            "qoe_diff": -0.3638092320261421,
+            "wilcoxon_p": 6.282006404299796e-30,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.49782118531382,
+            "qoe_ref": 75.85030565588427,
+            "qoe_diff": -0.3524844705704453,
+            "wilcoxon_p": 5.795209712953903e-29,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.4269791761832,
+            "qoe_ref": 75.76813888529796,
+            "qoe_diff": -0.3411597091147627,
+            "wilcoxon_p": 2.1583862994737765e-28,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.21445314879136,
+            "qoe_ref": 75.52163857353902,
+            "qoe_diff": -0.307185424747658,
+            "wilcoxon_p": 9.397554821757385e-28,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 74.86024310313826,
+            "qoe_ref": 75.11080472060748,
+            "qoe_diff": -0.25056161746921646,
+            "wilcoxon_p": 9.88533254337654e-27,
+            "treat_wins": false
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.1518230118321,
+            "qoe_ref": 74.28913701474437,
+            "qoe_diff": -0.13731400291227658,
+            "wilcoxon_p": 1.8717159595099423e-26,
+            "treat_wins": false
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 72.02656273791355,
+            "qoe_ref": 71.82413389715505,
+            "qoe_diff": 0.20242884075850043,
+            "wilcoxon_p": 1.8717159595099423e-26,
+            "treat_wins": true
+          }
+        ]
+      }
+    },
+    "certified_cf_vs_certified": {
+      "bandwidth_reduction_pct": 1.2064359128063196,
+      "bandwidth_wilcoxon_p": 6.527814480832271e-08,
+      "rebuffer_change_pct": 0.0,
+      "rebuffer_wilcoxon_p": 1.0,
+      "vmaf_mean_diff": 0.1455371732026139,
+      "vmaf_tost_p_equiv": 1.67087826705565e-89,
+      "vmaf_within_epsilon": true,
+      "qoe": {
+        "vmaf_diff": 0.14553717320261228,
+        "rebuffer_diff_s": 0.0,
+        "qoe_crossover_w": null,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.99789726307189,
+            "qoe_ref": 75.85236008986928,
+            "qoe_diff": 0.14553717320261228,
+            "wilcoxon_p": 6.835590524120833e-13,
+            "treat_wins": true
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.91573049248558,
+            "qoe_ref": 75.77019331928297,
+            "qoe_diff": 0.14553717320261228,
+            "wilcoxon_p": 6.835590524120833e-13,
+            "treat_wins": true
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.83356372189927,
+            "qoe_ref": 75.68802654869666,
+            "qoe_diff": 0.14553717320261228,
+            "wilcoxon_p": 6.835590524120833e-13,
+            "treat_wins": true
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.58706341014035,
+            "qoe_ref": 75.44152623693772,
+            "qoe_diff": 0.1455371732026265,
+            "wilcoxon_p": 6.835590524120833e-13,
+            "treat_wins": true
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.17622955720879,
+            "qoe_ref": 75.03069238400617,
+            "qoe_diff": 0.14553717320261228,
+            "wilcoxon_p": 6.835590524120833e-13,
+            "treat_wins": true
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.35456185134568,
+            "qoe_ref": 74.20902467814307,
+            "qoe_diff": 0.14553717320261228,
+            "wilcoxon_p": 6.835590524120833e-13,
+            "treat_wins": true
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 71.88955873375635,
+            "qoe_ref": 71.74402156055373,
+            "qoe_diff": 0.14553717320261228,
+            "wilcoxon_p": 6.83585277361971e-13,
+            "treat_wins": true
+          }
+        ]
+      }
+    },
+    "certified_a_cf_vs_certified_a": {
+      "bandwidth_reduction_pct": 2.2791374545523384,
+      "bandwidth_wilcoxon_p": 0.4202997756629506,
+      "rebuffer_change_pct": 7084200913.061801,
+      "rebuffer_wilcoxon_p": 0.7820257538865871,
+      "vmaf_mean_diff": 0.1200071486928112,
+      "vmaf_tost_p_equiv": 1.931272644421457e-70,
+      "vmaf_within_epsilon": true,
+      "qoe": {
+        "vmaf_diff": 0.12000714869280671,
+        "rebuffer_diff_s": 0.07084200913061801,
+        "qoe_crossover_w": 1.6940110841794216,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.56866319444444,
+            "qoe_ref": 75.44865604575163,
+            "qoe_diff": 0.12000714869280671,
+            "wilcoxon_p": 0.00013166557572312309,
+            "treat_wins": true
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.49782118531382,
+            "qoe_ref": 75.44865604575163,
+            "qoe_diff": 0.049165139562191484,
+            "wilcoxon_p": 0.00014360056764842929,
+            "treat_wins": true
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.4269791761832,
+            "qoe_ref": 75.44865604575163,
+            "qoe_diff": -0.02167686956843795,
+            "wilcoxon_p": 0.00014360056764842929,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.21445314879136,
+            "qoe_ref": 75.44865604575163,
+            "qoe_diff": -0.2342028969602694,
+            "wilcoxon_p": 0.00014360056764842929,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 74.86024310313826,
+            "qoe_ref": 75.44865604575163,
+            "qoe_diff": -0.588412942613374,
+            "wilcoxon_p": 0.00014360056764842929,
+            "treat_wins": false
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.1518230118321,
+            "qoe_ref": 75.44865604575163,
+            "qoe_diff": -1.2968330339195404,
+            "wilcoxon_p": 0.00014360056764842929,
+            "treat_wins": false
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 72.02656273791355,
+            "qoe_ref": 75.44865604575163,
+            "qoe_diff": -3.4220933078380824,
+            "wilcoxon_p": 0.00014360056764842929,
+            "treat_wins": false
+          }
+        ]
+      }
+    },
+    "certified_cf_vs_raw": {
+      "bandwidth_reduction_pct": -27.07994267947702,
+      "bandwidth_wilcoxon_p": 3.0541469506549195e-35,
+      "rebuffer_change_pct": -83.19245455783519,
+      "rebuffer_wilcoxon_p": 4.4217630381207527e-10,
+      "vmaf_mean_diff": -2.700167483660129,
+      "vmaf_tost_p_equiv": 1.0,
+      "vmaf_within_epsilon": false,
+      "qoe": {
+        "vmaf_diff": -2.700167483660138,
+        "rebuffer_diff_s": -0.4067015824343527,
+        "qoe_crossover_w": 6.6391860771674835,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.99789726307189,
+            "qoe_ref": 78.69806474673203,
+            "qoe_diff": -2.700167483660138,
+            "wilcoxon_p": 3.163015420969873e-35,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.91573049248558,
+            "qoe_ref": 78.20919639371135,
+            "qoe_diff": -2.2934659012257725,
+            "wilcoxon_p": 7.603821556173146e-32,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.83356372189927,
+            "qoe_ref": 77.72032804069069,
+            "qoe_diff": -1.8867643187914211,
+            "wilcoxon_p": 4.3914991499173e-23,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.58706341014035,
+            "qoe_ref": 76.2537229816287,
+            "qoe_diff": -0.6666595714883528,
+            "wilcoxon_p": 1.3394707835707684e-09,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.17622955720879,
+            "qoe_ref": 73.80938121652538,
+            "qoe_diff": 1.3668483406834042,
+            "wilcoxon_p": 6.487362866487988e-05,
+            "treat_wins": true
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.35456185134568,
+            "qoe_ref": 68.92069768631875,
+            "qoe_diff": 5.433864165026932,
+            "wilcoxon_p": 0.006463164421234441,
+            "treat_wins": true
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 71.88955873375635,
+            "qoe_ref": 54.25464709569885,
+            "qoe_diff": 17.634911638057496,
+            "wilcoxon_p": 0.22108322451992402,
+            "treat_wins": true
+          }
+        ]
+      }
+    },
+    "certified_a_cf_vs_raw": {
+      "bandwidth_reduction_pct": -38.28461756284808,
+      "bandwidth_wilcoxon_p": 3.093374911352962e-35,
+      "rebuffer_change_pct": -85.5089803435029,
+      "rebuffer_wilcoxon_p": 4.4217630381207527e-10,
+      "vmaf_mean_diff": -3.129401552287578,
+      "vmaf_tost_p_equiv": 1.0,
+      "vmaf_within_epsilon": false,
+      "qoe": {
+        "vmaf_diff": -3.1294015522875895,
+        "rebuffer_diff_s": -0.41802634389004545,
+        "qoe_crossover_w": 7.486134780803968,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.56866319444444,
+            "qoe_ref": 78.69806474673203,
+            "qoe_diff": -3.1294015522875895,
+            "wilcoxon_p": 3.163058242634177e-35,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.49782118531382,
+            "qoe_ref": 78.20919639371135,
+            "qoe_diff": -2.711375208397527,
+            "wilcoxon_p": 2.2563534827725838e-33,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.4269791761832,
+            "qoe_ref": 77.72032804069069,
+            "qoe_diff": -2.293348864507493,
+            "wilcoxon_p": 5.452078576904028e-25,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.21445314879136,
+            "qoe_ref": 76.2537229816287,
+            "qoe_diff": -1.0392698328373342,
+            "wilcoxon_p": 9.756627512860261e-12,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 74.86024310313826,
+            "qoe_ref": 73.80938121652538,
+            "qoe_diff": 1.0508618866128785,
+            "wilcoxon_p": 1.5849072783455034e-05,
+            "treat_wins": true
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.1518230118321,
+            "qoe_ref": 68.92069768631875,
+            "qoe_diff": 5.2311253255133465,
+            "wilcoxon_p": 0.002378364909357328,
+            "treat_wins": true
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 72.02656273791355,
+            "qoe_ref": 54.25464709569885,
+            "qoe_diff": 17.7719156422147,
+            "wilcoxon_p": 0.1628909635704443,
+            "treat_wins": true
+          }
+        ]
+      }
+    },
+    "certified_a_vs_safety": {
+      "bandwidth_reduction_pct": -18.530232989236872,
+      "bandwidth_wilcoxon_p": 5.8737742374587585e-30,
+      "rebuffer_change_pct": -100.00000000000001,
+      "rebuffer_wilcoxon_p": 0.49532258724867717,
+      "vmaf_mean_diff": -0.4838163807189545,
+      "vmaf_tost_p_equiv": 4.5969228308988756e-89,
+      "vmaf_within_epsilon": true,
+      "qoe": {
+        "vmaf_diff": -0.48381638071894884,
+        "rebuffer_diff_s": -0.08216677058631075,
+        "qoe_crossover_w": 5.888224366938357,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.93247242647058,
+            "qoe_diff": -0.48381638071894884,
+            "wilcoxon_p": 2.854540423454509e-25,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.85030565588427,
+            "qoe_diff": -0.4016496101326368,
+            "wilcoxon_p": 1.1102820745643105e-23,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.76813888529796,
+            "qoe_diff": -0.3194828395463247,
+            "wilcoxon_p": 2.7272072346383766e-23,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.52163857353902,
+            "qoe_diff": -0.07298252778738856,
+            "wilcoxon_p": 6.414727265305568e-23,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.11080472060748,
+            "qoe_diff": 0.3378513251441575,
+            "wilcoxon_p": 1.129977287179059e-22,
+            "treat_wins": true
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 74.28913701474437,
+            "qoe_diff": 1.1595190310072638,
+            "wilcoxon_p": 1.156870749865838e-22,
+            "treat_wins": true
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 71.82413389715505,
+            "qoe_diff": 3.624522148596583,
+            "wilcoxon_p": 1.156870749865838e-22,
+            "treat_wins": true
+          }
+        ]
+      }
+    },
+    "certified_a_vs_certified": {
+      "bandwidth_reduction_pct": -16.25333963215417,
+      "bandwidth_wilcoxon_p": 6.47408567002076e-29,
+      "rebuffer_change_pct": -100.00000000000001,
+      "rebuffer_wilcoxon_p": 0.49532258724867717,
+      "vmaf_mean_diff": -0.4037040441176469,
+      "vmaf_tost_p_equiv": 1.0051884108038727e-94,
+      "vmaf_within_epsilon": true,
+      "qoe": {
+        "vmaf_diff": -0.4037040441176458,
+        "rebuffer_diff_s": -0.08216677058631075,
+        "qoe_crossover_w": 4.913227588682964,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.85236008986928,
+            "qoe_diff": -0.4037040441176458,
+            "wilcoxon_p": 5.052940629419738e-24,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.77019331928297,
+            "qoe_diff": -0.32153727353133377,
+            "wilcoxon_p": 1.7472206523449179e-22,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.68802654869666,
+            "qoe_diff": -0.2393705029450217,
+            "wilcoxon_p": 3.7758678835056727e-22,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.44152623693772,
+            "qoe_diff": 0.007129808813914451,
+            "wilcoxon_p": 8.691386188732869e-22,
+            "treat_wins": true
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.03069238400617,
+            "qoe_diff": 0.4179636617454605,
+            "wilcoxon_p": 1.1859147537879389e-21,
+            "treat_wins": true
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 74.20902467814307,
+            "qoe_diff": 1.2396313676085668,
+            "wilcoxon_p": 1.2134816252619854e-21,
+            "treat_wins": true
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 71.74402156055373,
+            "qoe_diff": 3.7046344851979,
+            "wilcoxon_p": 1.2134816252619854e-21,
+            "treat_wins": true
+          }
+        ]
+      }
+    },
+    "fixed_certified_a_vs_fixed_safety": {
+      "bandwidth_reduction_pct": -5.796386320162766,
+      "bandwidth_wilcoxon_p": 3.1383574778544683e-13,
+      "rebuffer_change_pct": 0.0,
+      "rebuffer_wilcoxon_p": 1.0,
+      "vmaf_mean_diff": -0.2297834967320258,
+      "vmaf_tost_p_equiv": 5.394829969788213e-66,
+      "vmaf_within_epsilon": true,
+      "qoe": {
+        "vmaf_diff": -0.22978349673199716,
+        "rebuffer_diff_s": 0.0,
+        "qoe_crossover_w": null,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 77.68693831699348,
+            "qoe_ref": 77.91672181372547,
+            "qoe_diff": -0.22978349673199716,
+            "wilcoxon_p": 3.1388378658638077e-13,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 77.58381935479727,
+            "qoe_ref": 77.81360285152928,
+            "qoe_diff": -0.22978349673201137,
+            "wilcoxon_p": 3.1388378658638077e-13,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 77.48070039260108,
+            "qoe_ref": 77.71048388933309,
+            "qoe_diff": -0.22978349673201137,
+            "wilcoxon_p": 3.1388378658638077e-13,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 77.17134350601249,
+            "qoe_ref": 77.40112700274452,
+            "qoe_diff": -0.22978349673202558,
+            "wilcoxon_p": 3.1388378658638077e-13,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 76.65574869503152,
+            "qoe_ref": 76.88553219176355,
+            "qoe_diff": -0.22978349673202558,
+            "wilcoxon_p": 3.1388378658638077e-13,
+            "treat_wins": false
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 75.62455907306959,
+            "qoe_ref": 75.85434256980162,
+            "qoe_diff": -0.22978349673202558,
+            "wilcoxon_p": 3.1388378658638077e-13,
+            "treat_wins": false
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 72.53099020718375,
+            "qoe_ref": 72.76077370391577,
+            "qoe_diff": -0.22978349673202558,
+            "wilcoxon_p": 3.1388378658638077e-13,
+            "treat_wins": false
+          }
+        ]
+      }
+    },
+    "certified_a_vs_fixed_certified_a": {
+      "bandwidth_reduction_pct": -31.790492695891732,
+      "bandwidth_wilcoxon_p": 3.981086082291162e-34,
+      "rebuffer_change_pct": -100.0,
+      "rebuffer_wilcoxon_p": 0.41542167645080874,
+      "vmaf_mean_diff": -2.2382822712418293,
+      "vmaf_tost_p_equiv": 1.0,
+      "vmaf_within_epsilon": false,
+      "qoe": {
+        "vmaf_diff": -2.238282271241843,
+        "rebuffer_diff_s": -0.10311896219619439,
+        "qoe_crossover_w": 21.70582619890299,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 77.68693831699348,
+            "qoe_diff": -2.238282271241843,
+            "wilcoxon_p": 3.988029964634718e-34,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 77.58381935479727,
+            "qoe_diff": -2.1351633090456374,
+            "wilcoxon_p": 7.719120260296933e-32,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 77.48070039260108,
+            "qoe_diff": -2.032044346849446,
+            "wilcoxon_p": 1.2547066596416237e-30,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 77.17134350601249,
+            "qoe_diff": -1.7226874602608575,
+            "wilcoxon_p": 4.608203253462837e-29,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 76.65574869503152,
+            "qoe_diff": -1.2070926492798861,
+            "wilcoxon_p": 3.2789922485844117e-28,
+            "treat_wins": false
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 75.62455907306959,
+            "qoe_diff": -0.1759030273179576,
+            "wilcoxon_p": 3.126853823234511e-27,
+            "treat_wins": false
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 75.44865604575163,
+            "qoe_ref": 72.53099020718375,
+            "qoe_diff": 2.917665838567885,
+            "wilcoxon_p": 6.1086599565180365e-27,
+            "treat_wins": true
+          }
+        ]
+      }
+    },
+    "safety_vs_fixed_safety": {
+      "bandwidth_reduction_pct": -21.129244489930166,
+      "bandwidth_wilcoxon_p": 3.2980399456248707e-34,
+      "rebuffer_change_pct": -20.318466326319253,
+      "rebuffer_wilcoxon_p": 0.5836310862141163,
+      "vmaf_mean_diff": -1.9842493872549005,
+      "vmaf_tost_p_equiv": 0.9999999999999893,
+      "vmaf_within_epsilon": false,
+      "qoe": {
+        "vmaf_diff": -1.9842493872548914,
+        "rebuffer_diff_s": -0.02095219160988364,
+        "qoe_crossover_w": 94.70366748263578,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.93247242647058,
+            "qoe_ref": 77.91672181372547,
+            "qoe_diff": -1.9842493872548914,
+            "wilcoxon_p": 3.315065195262788e-34,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.85030565588427,
+            "qoe_ref": 77.81360285152928,
+            "qoe_diff": -1.963297195645012,
+            "wilcoxon_p": 3.315065195262788e-34,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.76813888529796,
+            "qoe_ref": 77.71048388933309,
+            "qoe_diff": -1.9423450040351327,
+            "wilcoxon_p": 1.0874658802322066e-33,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.52163857353902,
+            "qoe_ref": 77.40112700274452,
+            "qoe_diff": -1.8794884292054945,
+            "wilcoxon_p": 6.258533291269412e-33,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.11080472060748,
+            "qoe_ref": 76.88553219176355,
+            "qoe_diff": -1.7747274711560692,
+            "wilcoxon_p": 3.5394557645978194e-31,
+            "treat_wins": false
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.28913701474437,
+            "qoe_ref": 75.85434256980162,
+            "qoe_diff": -1.565205555057247,
+            "wilcoxon_p": 2.069211270868026e-29,
+            "treat_wins": false
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 71.82413389715505,
+            "qoe_ref": 72.76077370391577,
+            "qoe_diff": -0.9366398067607236,
+            "wilcoxon_p": 2.743397523807308e-29,
+            "treat_wins": false
+          }
+        ]
+      }
+    },
+    "certified_vs_fixed_certified": {
+      "bandwidth_reduction_pct": -19.80139703400892,
+      "bandwidth_wilcoxon_p": 2.199878504283941e-33,
+      "rebuffer_change_pct": -20.318466326319253,
+      "rebuffer_wilcoxon_p": 0.5836310862141163,
+      "vmaf_mean_diff": -1.8855055147058821,
+      "vmaf_tost_p_equiv": 0.9999999999940533,
+      "vmaf_within_epsilon": false,
+      "qoe": {
+        "vmaf_diff": -1.8855055147058835,
+        "rebuffer_diff_s": -0.02095219160988364,
+        "qoe_crossover_w": 89.99084915854084,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 75.85236008986928,
+            "qoe_ref": 77.73786560457516,
+            "qoe_diff": -1.8855055147058835,
+            "wilcoxon_p": 2.2170549646123164e-33,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 75.77019331928297,
+            "qoe_ref": 77.63474664237897,
+            "qoe_diff": -1.864553323096004,
+            "wilcoxon_p": 2.2170549646123164e-33,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 75.68802654869666,
+            "qoe_ref": 77.53162768018277,
+            "qoe_diff": -1.8436011314861105,
+            "wilcoxon_p": 8.147534539886363e-33,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 75.44152623693772,
+            "qoe_ref": 77.22227079359418,
+            "qoe_diff": -1.7807445566564581,
+            "wilcoxon_p": 4.0359466856172647e-32,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 75.03069238400617,
+            "qoe_ref": 76.70667598261322,
+            "qoe_diff": -1.675983598607047,
+            "wilcoxon_p": 2.8114115974441945e-30,
+            "treat_wins": false
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 74.20902467814307,
+            "qoe_ref": 75.67548636065128,
+            "qoe_diff": -1.4664616825082106,
+            "wilcoxon_p": 1.2018882822095872e-28,
+            "treat_wins": false
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 71.74402156055373,
+            "qoe_ref": 72.58191749476543,
+            "qoe_diff": -0.8378959342117014,
+            "wilcoxon_p": 1.5875077629375857e-28,
+            "treat_wins": false
+          }
+        ]
+      }
+    },
+    "fixed_certified_vs_fixed_safety": {
+      "bandwidth_reduction_pct": -4.32947110640008,
+      "bandwidth_wilcoxon_p": 0.002661465754932463,
+      "rebuffer_change_pct": 0.0,
+      "rebuffer_wilcoxon_p": 1.0,
+      "vmaf_mean_diff": -0.17885620915032616,
+      "vmaf_tost_p_equiv": 6.814403360943018e-63,
+      "vmaf_within_epsilon": true,
+      "qoe": {
+        "vmaf_diff": -0.17885620915031097,
+        "rebuffer_diff_s": 0.0,
+        "qoe_crossover_w": null,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 77.73786560457516,
+            "qoe_ref": 77.91672181372547,
+            "qoe_diff": -0.17885620915031097,
+            "wilcoxon_p": 0.0026615129938322934,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 77.63474664237897,
+            "qoe_ref": 77.81360285152928,
+            "qoe_diff": -0.17885620915031097,
+            "wilcoxon_p": 0.0026615129938322934,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 77.53162768018277,
+            "qoe_ref": 77.71048388933309,
+            "qoe_diff": -0.17885620915032518,
+            "wilcoxon_p": 0.0026615129938322934,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 77.22227079359418,
+            "qoe_ref": 77.40112700274452,
+            "qoe_diff": -0.1788562091503394,
+            "wilcoxon_p": 0.0026615129938322934,
+            "treat_wins": false
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 76.70667598261322,
+            "qoe_ref": 76.88553219176355,
+            "qoe_diff": -0.17885620915032518,
+            "wilcoxon_p": 0.0026615129938322934,
+            "treat_wins": false
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 75.67548636065128,
+            "qoe_ref": 75.85434256980162,
+            "qoe_diff": -0.1788562091503394,
+            "wilcoxon_p": 0.0026615129938322934,
+            "treat_wins": false
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 72.58191749476543,
+            "qoe_ref": 72.76077370391577,
+            "qoe_diff": -0.1788562091503394,
+            "wilcoxon_p": 0.0026615129938322934,
+            "treat_wins": false
+          }
+        ]
+      }
+    },
+    "fixed_safety_vs_raw": {
+      "bandwidth_reduction_pct": -6.093880948362912,
+      "bandwidth_wilcoxon_p": 6.633959198770702e-36,
+      "rebuffer_change_pct": -78.90659897311133,
+      "rebuffer_wilcoxon_p": 4.4217630381207527e-10,
+      "vmaf_mean_diff": -0.7813429330065343,
+      "vmaf_tost_p_equiv": 0.0003384444057272784,
+      "vmaf_within_epsilon": true,
+      "qoe": {
+        "vmaf_diff": -0.781342933006556,
+        "rebuffer_diff_s": -0.3857493908244691,
+        "qoe_crossover_w": 2.0255195512728554,
+        "qoe_by_weight": [
+          {
+            "w": 0.0,
+            "qoe_treat": 77.91672181372547,
+            "qoe_ref": 78.69806474673203,
+            "qoe_diff": -0.781342933006556,
+            "wilcoxon_p": 3.103027164194523e-35,
+            "treat_wins": false
+          },
+          {
+            "w": 1.0,
+            "qoe_treat": 77.81360285152928,
+            "qoe_ref": 78.20919639371135,
+            "qoe_diff": -0.39559354218206977,
+            "wilcoxon_p": 1.476803962483487e-16,
+            "treat_wins": false
+          },
+          {
+            "w": 2.0,
+            "qoe_treat": 77.71048388933309,
+            "qoe_ref": 77.72032804069069,
+            "qoe_diff": -0.009844151357597752,
+            "wilcoxon_p": 4.1721776235241325e-07,
+            "treat_wins": false
+          },
+          {
+            "w": 5.0,
+            "qoe_treat": 77.40112700274452,
+            "qoe_ref": 76.2537229816287,
+            "qoe_diff": 1.1474040211158183,
+            "wilcoxon_p": 0.005311005352170254,
+            "treat_wins": true
+          },
+          {
+            "w": 10.0,
+            "qoe_treat": 76.88553219176355,
+            "qoe_ref": 73.80938121652538,
+            "qoe_diff": 3.076150975238164,
+            "wilcoxon_p": 0.14970785032489295,
+            "treat_wins": true
+          },
+          {
+            "w": 20.0,
+            "qoe_treat": 75.85434256980162,
+            "qoe_ref": 68.92069768631875,
+            "qoe_diff": 6.93364488348287,
+            "wilcoxon_p": 0.3301546508698133,
+            "treat_wins": true
+          },
+          {
+            "w": 50.0,
+            "qoe_treat": 72.76077370391577,
+            "qoe_ref": 54.25464709569885,
+            "qoe_diff": 18.506126608216924,
+            "wilcoxon_p": 0.483838243792012,
+            "treat_wins": true
+          }
+        ]
+      }
+    }
+  },
+  "run_config": {
+    "policy": "ppo",
+    "ckpt": "results/models/master_v18_5gtrain_r6/proposed_v14/seed_1/best_model/best_model",
+    "blind": false,
+    "trace_dir": "data/standardized/test_traces_5g_v18",
+    "buffer": 30.0,
+    "episodes": 204,
+    "epsilon": 1.0,
+    "alpha": 0.05,
+    "arms": "raw,safety,certified,certified_a,certified_cf,certified_a_cf,fixed_safety,fixed_certified,fixed_certified_a",
+    "out": "results/cf_budget/co_coreg_s1_b30_warm_a05",
+    "predictive": false,
+    "forecast": false,
+    "epsilon_risk": 4.0,
+    "risk_buffer": 8.0,
+    "lookahead": 1,
+    "horizon_quantile": 0.2,
+    "persist_calib": true,
+    "precalib_dir": "data/standardized/train_traces_5g_v18",
+    "fixed_rho": 0.8,
+    "stable_vbr": true
+  }
+}

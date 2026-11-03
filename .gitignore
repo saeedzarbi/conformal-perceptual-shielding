@@ -15,3 +15,7 @@ data/standardized/test_traces_real5g*/
 data/standardized/train_traces_real5g*/
 models/
 analysis/*/
+
+# Keep published episode results tracked
+!data/episode_results/
+!data/episode_results/**

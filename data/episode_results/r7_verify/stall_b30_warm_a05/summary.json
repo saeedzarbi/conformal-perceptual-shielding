@@ -1,0 +1,32 @@
+{
+  "policy": "greedy",
+  "arm": "certified",
+  "episodes": 204,
+  "epsilon": 1.0,
+  "alpha": 0.05,
+  "n_chunks": 9792,
+  "rebuffer_total_s": 903.2823230229109,
+  "rebuffer_mean_per_episode_s": 4.427854524622112,
+  "seconds": {
+    "emergency": 0.0,
+    "cold_start": 0.0,
+    "bound_miss": 903.2823230229109,
+    "bound_held": 0.0
+  },
+  "seconds_pct": {
+    "emergency": 0.0,
+    "cold_start": 0.0,
+    "bound_miss": 100.0,
+    "bound_held": 0.0
+  },
+  "stall_chunks": {
+    "emergency": 0,
+    "cold_start": 0,
+    "bound_miss": 127,
+    "bound_held": 0
+  },
+  "priority": "emergency > cold_start > bound_miss > bound_held",
+  "persist_calib": true,
+  "precalib_dir": "data/standardized/train_traces_5g_v18",
+  "cold_start_chunk_frac": 0.0
+}

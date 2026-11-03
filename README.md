@@ -84,8 +84,6 @@ is in `analysis/PREREG.md` and `analysis/PREREG_stats.md`.
 See `data/standardized/REAL5G_ATTRIBUTION.md` for details.
 
 
-## Trained models
-Trained checkpoints (r6/r7/Pensieve packages) are large and are not tracked here. They are archived on Google Drive: https://drive.google.com/drive/folders/1zlI1zCWdFsWKcFoEOYkq3EoNEYY1aaie
 
 ## Citation
 ```

@@ -9,4 +9,4 @@ Each run directory contains `episodes.csv` and usually `summary.json` from `eval
 - `real5g/`, `real5g_eps05/` — Irish and Lumos5G measured-5G packs
 - `v18_certified/`, `ablation_eps_alpha/`, `r7_verify/` — supporting evaluations
 
-Trained model checkpoints are not in this repository (large); see the paper Data availability note / Google Drive archive.
+Trained model checkpoints are not in this repository (large). Archive: https://drive.google.com/drive/folders/1zlI1zCWdFsWKcFoEOYkq3EoNEYY1aaie
